@@ -1,3 +1,3 @@
-# 顶真组-基于RDKX5具身智能机器人“小七”代码开源
+The Dingzhen Group - Open Source Code for the Embodied Intelligent Robot "Xiao Qi" Based on RDKX5
 
-**包含上位机机械臂控制节点，AI工作流，STM32下位机代码**
+Includes the upper computer robotic arm control node, AI workflow, and STM32 lower computer code
