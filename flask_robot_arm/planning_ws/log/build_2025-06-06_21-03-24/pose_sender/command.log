@@ -1,0 +1,4 @@
+Invoking command in '/home/sunrise/planning_ws/build/pose_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/planning_ws/myArm_robot_ros2/src/pose_sender -DCMAKE_INSTALL_PREFIX=/home/sunrise/planning_ws/install/pose_sender
+Invoked command in '/home/sunrise/planning_ws/build/pose_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/planning_ws/myArm_robot_ros2/src/pose_sender -DCMAKE_INSTALL_PREFIX=/home/sunrise/planning_ws/install/pose_sender
+Invoking command in '/home/sunrise/planning_ws/build/pose_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/planning_ws/build/pose_sender -- -j8 -l8
+Invoked command in '/home/sunrise/planning_ws/build/pose_sender' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/planning_ws/build/pose_sender -- -j8 -l8

@@ -1,0 +1,6 @@
+{
+  "package_name": "receive_msg",
+  "non_idl_tuples": [
+    "/home/sunrise/motor_ws/src/receive_msg:msg/Receive.msg"
+  ]
+}

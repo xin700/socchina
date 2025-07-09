@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/httpController/httpController.egg-info/PKG-INFO
+../../build/httpController/httpController.egg-info/SOURCES.txt
+../../build/httpController/httpController.egg-info/dependency_links.txt
+../../build/httpController/httpController.egg-info/entry_points.txt
+../../build/httpController/httpController.egg-info/requires.txt
+../../build/httpController/httpController.egg-info/top_level.txt
+../../build/httpController/httpController.egg-info/zip-safe
+httpController/__init__.py
+httpController/httpController.py
+resource/httpController
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

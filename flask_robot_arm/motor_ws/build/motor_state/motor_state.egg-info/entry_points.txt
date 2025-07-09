@@ -1,0 +1,3 @@
+[console_scripts]
+state_node = motor_state.state_node:main
+

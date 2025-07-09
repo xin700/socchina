@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "receive_msg__py",
+		"source" : "/home/sunrise/motor_ws/build/receive_msg/receive_msg__py"
+	}
+}

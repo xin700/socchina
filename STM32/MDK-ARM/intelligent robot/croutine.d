@@ -1,0 +1,14 @@
+intelligent robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+intelligent robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+intelligent robot\croutine.o: D:\STM32\ARM\ARMCC\Bin\..\include\stddef.h
+intelligent robot\croutine.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdint.h
+intelligent robot\croutine.o: ../Core/Inc/FreeRTOSConfig.h
+intelligent robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+intelligent robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+intelligent robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+intelligent robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+intelligent robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+intelligent robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+intelligent robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+intelligent robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+intelligent robot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

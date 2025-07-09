@@ -1,0 +1,125 @@
+/* 基础样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* 机器人脸部样式 */
+.robot-face {
+    background-color: #e6e6e6;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.1);
+    border: 8px solid #d0d0d0;
+    overflow: hidden;
+}
+
+.eyes-container {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    position: relative;
+    z-index: 10;
+}
+
+.eye {
+    width: 45px;
+    height: 70px;
+    background-color: #333;
+    border-radius: 50%;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+/* 眉毛样式 */
+.eyebrows-container {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    z-index: 5;
+}
+
+.eyebrow {
+    width: 60px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+/* Emoji 样式 */
+.emoji-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+}
+
+.emoji {
+    position: absolute;
+    font-size: 40px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.angry-mark {
+    top: 40px;
+    right: 70px;
+    font-size: 35px;
+}
+
+.sweat-drop {
+    top: 60px;
+    right: 60px;
+    font-size: 30px;
+    transform: rotate(20deg);
+}
+
+.heart {
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 45px;
+    color: #ff4d6a;
+}
+
+.question-mark {
+    top: 40px;
+    left: 70px;
+    font-size: 35px;
+    color: #3498db;
+}
+
+.exclamation-mark {
+    top: 40px;
+    right: 70px;
+    font-size: 35px;
+    color: #e74c3c;
+}
+
+.zzz {
+    top: 50px;
+    right: 60px;
+    font-size: 40px;
+    color: #34495e;
+    transform: rotate(15deg);
+}

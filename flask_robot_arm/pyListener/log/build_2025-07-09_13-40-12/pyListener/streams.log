@@ -1,0 +1,21 @@
+[4.353s] Invoking command in '/home/sunrise/pyListener/pyListener': PYTHONPATH=/home/sunrise/pyListener/build/pyListener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pyListener build --build-base /home/sunrise/pyListener/build/pyListener/build install --record /home/sunrise/pyListener/build/pyListener/install.log --single-version-externally-managed install_data
+[5.895s] running egg_info
+[5.899s] writing ../build/pyListener/pyListener.egg-info/PKG-INFO
+[5.900s] writing dependency_links to ../build/pyListener/pyListener.egg-info/dependency_links.txt
+[5.902s] writing entry points to ../build/pyListener/pyListener.egg-info/entry_points.txt
+[5.903s] writing requirements to ../build/pyListener/pyListener.egg-info/requires.txt
+[5.903s] writing top-level names to ../build/pyListener/pyListener.egg-info/top_level.txt
+[5.913s] reading manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+[5.919s] writing manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+[5.919s] running build
+[5.920s] running build_py
+[5.921s] running install
+[5.923s] running install_lib
+[5.931s] running install_data
+[5.932s] running install_egg_info
+[5.943s] removing '/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info' (and everything under it)
+[5.944s] Copying ../build/pyListener/pyListener.egg-info to /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info
+[5.950s] running install_scripts
+[6.076s] Installing pyListener script to /home/sunrise/pyListener/install/pyListener/lib/pyListener
+[6.078s] writing list of installed files to '/home/sunrise/pyListener/build/pyListener/install.log'
+[6.291s] Invoked command in '/home/sunrise/pyListener/pyListener' returned '0': PYTHONPATH=/home/sunrise/pyListener/build/pyListener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pyListener build --build-base /home/sunrise/pyListener/build/pyListener/build install --record /home/sunrise/pyListener/build/pyListener/install.log --single-version-externally-managed install_data

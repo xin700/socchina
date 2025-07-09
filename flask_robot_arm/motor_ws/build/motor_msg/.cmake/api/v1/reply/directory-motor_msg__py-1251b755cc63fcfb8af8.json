@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "motor_msg__py",
+		"source" : "/home/sunrise/motor_ws/build/motor_msg/motor_msg__py"
+	}
+}

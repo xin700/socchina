@@ -1,0 +1,24 @@
+[4.348s] Invoking command in '/home/sunrise/motor_ws/src/motor_control': CMAKE_PREFIX_PATH=/home/sunrise/motor_ws/install/motor_msg:/home/sunrise/motor_ws/install/receive_msg LD_LIBRARY_PATH=/home/sunrise/motor_ws/install/motor_msg/lib:/home/sunrise/motor_ws/install/receive_msg/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/motor_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/sunrise/motor_ws/build/motor_control/build install --record /home/sunrise/motor_ws/build/motor_control/install.log --single-version-externally-managed install_data
+[5.968s] running egg_info
+[5.973s] writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+[5.974s] writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[5.975s] writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+[5.976s] writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+[5.977s] writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+[5.988s] reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[5.995s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[5.996s] running build
+[5.997s] running build_py
+[5.997s] copying motor_control/motor_node.py -> /home/sunrise/motor_ws/build/motor_control/build/lib/motor_control
+[6.000s] running install
+[6.002s] running install_lib
+[6.006s] copying /home/sunrise/motor_ws/build/motor_control/build/lib/motor_control/motor_node.py -> /home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages/motor_control
+[6.011s] byte-compiling /home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages/motor_control/motor_node.py to motor_node.cpython-310.pyc
+[6.017s] running install_data
+[6.018s] running install_egg_info
+[6.029s] removing '/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)
+[6.031s] Copying ../../build/motor_control/motor_control.egg-info to /home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[6.038s] running install_scripts
+[6.176s] Installing motor_node script to /home/sunrise/motor_ws/install/motor_control/lib/motor_control
+[6.184s] writing list of installed files to '/home/sunrise/motor_ws/build/motor_control/install.log'
+[6.424s] Invoked command in '/home/sunrise/motor_ws/src/motor_control' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/motor_ws/install/motor_msg:/home/sunrise/motor_ws/install/receive_msg LD_LIBRARY_PATH=/home/sunrise/motor_ws/install/motor_msg/lib:/home/sunrise/motor_ws/install/receive_msg/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/motor_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/sunrise/motor_ws/build/motor_control/build install --record /home/sunrise/motor_ws/build/motor_control/install.log --single-version-externally-managed install_data

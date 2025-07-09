@@ -1,0 +1,66 @@
+[0.042s] Invoking command in '/home/sunrise/planning_ws/build/myArm3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/planning_ws/myArm_robot_ros2/src/myArm3 -DCMAKE_INSTALL_PREFIX=/home/sunrise/planning_ws/install/myArm3
+[0.352s] -- The C compiler identification is GNU 11.2.0
+[0.683s] -- The CXX compiler identification is GNU 11.2.0
+[0.719s] -- Detecting C compiler ABI info
+[1.095s] -- Detecting C compiler ABI info - done
+[1.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.177s] -- Detecting C compile features
+[1.180s] -- Detecting C compile features - done
+[1.195s] -- Detecting CXX compiler ABI info
+[1.613s] -- Detecting CXX compiler ABI info - done
+[1.673s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.674s] -- Detecting CXX compile features
+[1.677s] -- Detecting CXX compile features - done
+[1.687s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.576s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.101s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.406s] WARNING: Package name "myArm3" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[3.600s] -- Added test 'lint_cmake' to check CMake code style
+[3.608s] -- Added test 'xmllint' to check XML markup files
+[3.615s] -- Configuring done
+[3.628s] -- Generating done
+[3.637s] -- Build files have been written to: /home/sunrise/planning_ws/build/myArm3
+[3.668s] Invoked command in '/home/sunrise/planning_ws/build/myArm3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/planning_ws/myArm_robot_ros2/src/myArm3 -DCMAKE_INSTALL_PREFIX=/home/sunrise/planning_ws/install/myArm3
+[3.690s] Invoking command in '/home/sunrise/planning_ws/build/myArm3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/planning_ws/build/myArm3 -- -j8 -l8
+[3.866s] Invoked command in '/home/sunrise/planning_ws/build/myArm3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/planning_ws/build/myArm3 -- -j8 -l8
+[3.924s] Invoking command in '/home/sunrise/planning_ws/build/myArm3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/planning_ws/build/myArm3
+[3.959s] -- Install configuration: ""
+[3.960s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/config
+[3.961s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/config/joint_names_myArm3.yamlZone.Identifier
+[3.962s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/config/joint_names_myArm3.yaml
+[3.962s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes
+[3.963s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J4_link.STLZone.Identifier
+[3.963s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/base_link.STL
+[3.980s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J3_link.STLZone.Identifier
+[3.980s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J1_link.STLZone.Identifier
+[3.981s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J5_link.STLZone.Identifier
+[3.982s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J5_link.STL
+[3.988s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/base_link.STLZone.Identifier
+[3.988s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J3_link.STL
+[4.004s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J2_link.STLZone.Identifier
+[4.004s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J4_link.STL
+[4.009s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J2_link.STL
+[4.024s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J6_link.STL
+[4.027s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J1_link.STL
+[4.046s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/meshes/J6_link.STLZone.Identifier
+[4.047s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/urdf
+[4.047s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/urdf/myArm3.csv
+[4.048s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/urdf/myArm3.urdf
+[4.049s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/urdf/myArm3.csvZone.Identifier
+[4.050s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/urdf/myArm3.urdfZone.Identifier
+[4.051s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/ament_index/resource_index/package_run_dependencies/myArm3
+[4.052s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/ament_index/resource_index/parent_prefix_path/myArm3
+[4.053s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/environment/ament_prefix_path.sh
+[4.053s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/environment/ament_prefix_path.dsv
+[4.054s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/environment/path.sh
+[4.055s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/environment/path.dsv
+[4.055s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/local_setup.bash
+[4.056s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/local_setup.sh
+[4.057s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/local_setup.zsh
+[4.057s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/local_setup.dsv
+[4.058s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/package.dsv
+[4.058s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/ament_index/resource_index/packages/myArm3
+[4.059s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/cmake/myArm3Config.cmake
+[4.060s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/cmake/myArm3Config-version.cmake
+[4.060s] -- Installing: /home/sunrise/planning_ws/install/myArm3/share/myArm3/package.xml
+[4.069s] Invoked command in '/home/sunrise/planning_ws/build/myArm3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/planning_ws/build/myArm3

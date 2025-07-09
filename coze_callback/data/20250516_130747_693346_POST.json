@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-05-16T13:07:47.693397",
+  "method": "POST",
+  "path": "/callback",
+  "headers": {
+    "host": "xin700.top:11452",
+    "User-Agent": "hertz",
+    "Content-Type": "application/json",
+    "Content-Length": "584",
+    "X-Tt-Logid": "2025051613074601020313006953805FE",
+    "x-envoy-return-response-flags": "1",
+    "original-destination-cluster": "default"
+  },
+  "body": "{\"EventType\":\"VoiceChat\",\"EventData\":\"{\\\"AppId\\\":\\\"680f6f29207f3c01776ff55e\\\",\\\"BusinessId\\\":\\\"\\\",\\\"RoomId\\\":\\\"ChatRoom01\\\",\\\"TaskId\\\":\\\"ChatTask01\\\",\\\"UserID\\\":\\\"Huoshan01\\\",\\\"RoundID\\\":1,\\\"EventTime\\\":1747372066654,\\\"EventType\\\":0,\\\"RunStage\\\":\\\"answerFinish\\\",\\\"ErrorInfo\\\":{\\\"ErrorCode\\\":0,\\\"Reason\\\":\\\"\\\"}}\",\"EventTime\":\"2025-05-16T13:07:46+08:00\",\"EventId\":\"ffae18c9-6c24-4469-8d8e-adcadaf7a442\",\"AppId\":\"680f6f29207f3c01776ff55e\",\"Version\":\"2024-12-01\",\"Signature\":\"c8376581b58808956f172f2aad05aae15614ae6011a0ee3da2c4f428a198f21b\",\"Noce\":\"molV\",\"Nonce\":\"molV\",\"BusinessId\":\"\"}",
+  "signature_verification": {
+    "signature_verified": true,
+    "verification_message": "Signature verification successful",
+    "event_id": "ffae18c9-6c24-4469-8d8e-adcadaf7a442"
+  }
+}

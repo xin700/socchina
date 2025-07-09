@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>机器人表情</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // 页面加载时处理URL参数
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const emotion = urlParams.get('emotion');
+            if (emotion) {
+                // 延迟一小段时间以确保页面元素已加载
+                setTimeout(() => {
+                    window.setRobotEmotion(emotion);
+                }, 100);
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="robot-face">
+        <div class="eyes-container">
+            <div class="eye left-eye"></div>
+            <div class="eye right-eye"></div>
+        </div>
+        
+        <!-- 表情符号层 - 仅保留非脸部符号 -->
+        <div class="emoji-layer">
+            <div class="emoji sweat-drop">💦</div>
+            <div class="emoji angry-mark">💢</div>
+            <div class="emoji heart">❤️</div>
+            <div class="emoji question-mark">❓</div>
+            <div class="emoji exclamation-mark">❗</div>
+            <div class="emoji zzz">💤</div>
+        </div>
+        
+        <!-- 添加眉毛 -->
+        <div class="eyebrows-container">
+            <div class="eyebrow left-eyebrow"></div>
+            <div class="eyebrow right-eyebrow"></div>
+        </div>
+    </div>
+
+    <!-- 隐藏的API响应区域 -->
+    <div id="api-response" style="display: none;">
+        <pre id="response-content"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

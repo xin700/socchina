@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.001120] (-) JobUnselected: {'identifier': 'myArm3'}
+[0.002162] (-) JobUnselected: {'identifier': 'myArm_moveit_config'}
+[0.002828] (-) JobUnselected: {'identifier': 'shit'}
+[0.003544] (pose_sender) JobQueued: {'identifier': 'pose_sender', 'dependencies': OrderedDict()}
+[0.003786] (pose_sender) JobStarted: {'identifier': 'pose_sender'}
+[0.036997] (pose_sender) JobProgress: {'identifier': 'pose_sender', 'progress': 'cmake'}
+[0.039042] (pose_sender) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/planning_ws/myArm_robot_ros2/src/pose_sender', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/planning_ws/install/pose_sender'], 'cwd': '/home/sunrise/planning_ws/build/pose_sender', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.0.90 52220 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2d95ee86-eca4-4c9d-90ea-f0a0185e0f48.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f365c1e00d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/planning_ws/build/pose_sender'), ('CONDA_EXE', '/home/sunrise/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.0.90 52220 192.168.0.134 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098979] (-) TimerEvent: {}
+[0.200054] (-) TimerEvent: {}
+[0.301021] (-) TimerEvent: {}
+[0.401976] (-) TimerEvent: {}
+[0.503023] (-) TimerEvent: {}
+[0.604210] (-) TimerEvent: {}
+[0.665976] (pose_sender) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.704403] (-) TimerEvent: {}
+[0.805388] (-) TimerEvent: {}
+[0.906610] (-) TimerEvent: {}
+[1.007563] (-) TimerEvent: {}
+[1.108501] (-) TimerEvent: {}
+[1.209509] (-) TimerEvent: {}
+[1.220988] (pose_sender) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.266307] (pose_sender) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.309717] (-) TimerEvent: {}
+[1.410639] (-) TimerEvent: {}
+[1.511646] (-) TimerEvent: {}
+[1.612609] (-) TimerEvent: {}
+[1.658020] (pose_sender) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.712818] (-) TimerEvent: {}
+[1.714312] (pose_sender) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.716461] (pose_sender) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.719335] (pose_sender) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.735859] (pose_sender) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.813022] (-) TimerEvent: {}
+[1.913900] (-) TimerEvent: {}
+[2.014844] (-) TimerEvent: {}
+[2.115767] (-) TimerEvent: {}
+[2.147458] (pose_sender) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.209881] (pose_sender) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.211324] (pose_sender) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.213649] (pose_sender) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.215896] (-) TimerEvent: {}
+[2.231332] (pose_sender) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.316081] (-) TimerEvent: {}
+[2.416930] (-) TimerEvent: {}
+[2.517758] (-) TimerEvent: {}
+[2.618560] (-) TimerEvent: {}
+[2.719379] (-) TimerEvent: {}
+[2.820284] (-) TimerEvent: {}
+[2.921266] (-) TimerEvent: {}
+[3.022048] (-) TimerEvent: {}
+[3.121358] (pose_sender) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.122883] (-) TimerEvent: {}
+[3.223551] (-) TimerEvent: {}
+[3.324340] (-) TimerEvent: {}
+[3.425154] (-) TimerEvent: {}
+[3.525993] (-) TimerEvent: {}
+[3.626902] (-) TimerEvent: {}
+[3.657938] (pose_sender) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[3.727103] (-) TimerEvent: {}
+[3.827980] (-) TimerEvent: {}
+[3.928856] (-) TimerEvent: {}
+[4.029768] (-) TimerEvent: {}
+[4.130701] (-) TimerEvent: {}
+[4.231666] (-) TimerEvent: {}
+[4.332585] (-) TimerEvent: {}
+[4.433480] (-) TimerEvent: {}
+[4.534377] (-) TimerEvent: {}
+[4.587974] (pose_sender) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[4.634604] (-) TimerEvent: {}
+[4.735500] (-) TimerEvent: {}
+[4.836328] (-) TimerEvent: {}
+[4.838383] (pose_sender) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.868437] (pose_sender) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.920810] (pose_sender) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.936467] (-) TimerEvent: {}
+[5.001515] (pose_sender) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.036659] (-) TimerEvent: {}
+[5.113875] (pose_sender) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.136814] (-) TimerEvent: {}
+[5.237608] (-) TimerEvent: {}
+[5.338477] (-) TimerEvent: {}
+[5.439375] (-) TimerEvent: {}
+[5.540247] (-) TimerEvent: {}
+[5.641158] (-) TimerEvent: {}
+[5.742060] (-) TimerEvent: {}
+[5.842954] (-) TimerEvent: {}
+[5.943841] (-) TimerEvent: {}
+[6.044718] (-) TimerEvent: {}
+[6.145586] (-) TimerEvent: {}
+[6.246486] (-) TimerEvent: {}
+[6.347381] (-) TimerEvent: {}
+[6.428403] (pose_sender) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[6.447525] (-) TimerEvent: {}
+[6.548355] (-) TimerEvent: {}
+[6.649234] (-) TimerEvent: {}
+[6.700232] (pose_sender) StdoutLine: {'line': b'-- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[6.749443] (-) TimerEvent: {}
+[6.850298] (-) TimerEvent: {}
+[6.949716] (pose_sender) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.950521] (-) TimerEvent: {}
+[6.965595] (pose_sender) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.050806] (-) TimerEvent: {}
+[7.151672] (-) TimerEvent: {}
+[7.252571] (-) TimerEvent: {}
+[7.353577] (-) TimerEvent: {}
+[7.424017] (pose_sender) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.453766] (-) TimerEvent: {}
+[7.542168] (pose_sender) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.553895] (-) TimerEvent: {}
+[7.654696] (-) TimerEvent: {}
+[7.723756] (pose_sender) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.754892] (-) TimerEvent: {}
+[7.772231] (pose_sender) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.855106] (-) TimerEvent: {}
+[7.962003] (-) TimerEvent: {}
+[8.062928] (-) TimerEvent: {}
+[8.163871] (-) TimerEvent: {}
+[8.189639] (pose_sender) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[8.202775] (pose_sender) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[8.264062] (-) TimerEvent: {}
+[8.354411] (pose_sender) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[8.364212] (-) TimerEvent: {}
+[8.465038] (-) TimerEvent: {}
+[8.565934] (-) TimerEvent: {}
+[8.666938] (-) TimerEvent: {}
+[8.768152] (-) TimerEvent: {}
+[8.790626] (pose_sender) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[8.868349] (-) TimerEvent: {}
+[8.969260] (-) TimerEvent: {}
+[9.003345] (pose_sender) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[9.069460] (-) TimerEvent: {}
+[9.170318] (-) TimerEvent: {}
+[9.271234] (-) TimerEvent: {}
+[9.372110] (-) TimerEvent: {}
+[9.472986] (-) TimerEvent: {}
+[9.573901] (-) TimerEvent: {}
+[9.674796] (-) TimerEvent: {}
+[9.775689] (-) TimerEvent: {}
+[9.836615] (pose_sender) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[9.875896] (-) TimerEvent: {}
+[9.976779] (-) TimerEvent: {}
+[10.040309] (pose_sender) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[10.076982] (-) TimerEvent: {}
+[10.177852] (-) TimerEvent: {}
+[10.180774] (pose_sender) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[10.278062] (-) TimerEvent: {}
+[10.378943] (-) TimerEvent: {}
+[10.381152] (pose_sender) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.479117] (-) TimerEvent: {}
+[10.579948] (-) TimerEvent: {}
+[10.680852] (-) TimerEvent: {}
+[10.781816] (-) TimerEvent: {}
+[10.857772] (pose_sender) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.858702] (pose_sender) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sunrise/planning_ws/myArm_robot_ros2/src/pose_sender/include>\n'}
+[10.859243] (pose_sender) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.862780] (pose_sender) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.868255] (pose_sender) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.869079] (pose_sender) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.871224] (pose_sender) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.877900] (pose_sender) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.881888] (-) TimerEvent: {}
+[10.982625] (-) TimerEvent: {}
+[11.066938] (pose_sender) StdoutLine: {'line': b'-- Generating done\n'}
+[11.082802] (-) TimerEvent: {}
+[11.111401] (pose_sender) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/planning_ws/build/pose_sender\n'}
+[11.183019] (-) TimerEvent: {}
+[11.208394] (pose_sender) CommandEnded: {'returncode': 0}
+[11.211997] (pose_sender) JobProgress: {'identifier': 'pose_sender', 'progress': 'build'}
+[11.217173] (pose_sender) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/planning_ws/build/pose_sender', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/planning_ws/build/pose_sender', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.0.90 52220 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2d95ee86-eca4-4c9d-90ea-f0a0185e0f48.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f365c1e00d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/planning_ws/build/pose_sender'), ('CONDA_EXE', '/home/sunrise/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.0.90 52220 192.168.0.134 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.283260] (-) TimerEvent: {}
+[11.384254] (-) TimerEvent: {}
+[11.475308] (pose_sender) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pose_sender.dir/src/pose_sender.cpp.o\x1b[0m\n'}
+[11.484478] (-) TimerEvent: {}
+[11.585634] (-) TimerEvent: {}
+[11.686515] (-) TimerEvent: {}
+[11.787325] (-) TimerEvent: {}
+[11.888103] (-) TimerEvent: {}
+[11.988928] (-) TimerEvent: {}
+[12.089797] (-) TimerEvent: {}
+[12.190654] (-) TimerEvent: {}
+[12.291553] (-) TimerEvent: {}
+[12.392441] (-) TimerEvent: {}
+[12.493317] (-) TimerEvent: {}
+[12.594168] (-) TimerEvent: {}
+[12.695051] (-) TimerEvent: {}
+[12.795909] (-) TimerEvent: {}
+[12.896780] (-) TimerEvent: {}
+[12.997705] (-) TimerEvent: {}
+[13.098662] (-) TimerEvent: {}
+[13.199764] (-) TimerEvent: {}
+[13.301592] (-) TimerEvent: {}
+[13.402513] (-) TimerEvent: {}
+[13.503404] (-) TimerEvent: {}
+[13.604269] (-) TimerEvent: {}
+[13.705130] (-) TimerEvent: {}
+[13.771313] (pose_sender) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/planning_ws/myArm_robot_ros2/src/pose_sender/src/pose_sender.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmoveit/move_group_interface/move_group_interface.hpp: No such file or directory\n'}
+[13.772182] (pose_sender) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K<moveit/move_group_interface/move_group_interface.hpp>\x1b[m\x1b[K\n'}
+[13.772695] (pose_sender) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.773175] (pose_sender) StderrLine: {'line': b'compilation terminated.\n'}
+[13.786915] (pose_sender) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pose_sender.dir/build.make:76: CMakeFiles/pose_sender.dir/src/pose_sender.cpp.o] Error 1\n'}
+[13.789702] (pose_sender) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pose_sender.dir/all] Error 2\n'}
+[13.792251] (pose_sender) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.805557] (-) TimerEvent: {}
+[13.816204] (pose_sender) CommandEnded: {'returncode': 2}
+[13.882941] (pose_sender) JobEnded: {'identifier': 'pose_sender', 'rc': 2}
+[13.894856] (-) EventReactorShutdown: {}

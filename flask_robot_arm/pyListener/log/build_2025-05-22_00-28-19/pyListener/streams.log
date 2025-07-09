@@ -1,0 +1,37 @@
+[0.374s] Invoking command in '/home/user/pyListener/pyListener': PYTHONPATH=/home/user/pyListener/build/pyListener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/pyListener/install/pyListener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pyListener build --build-base /home/user/pyListener/build/pyListener/build install --record /home/user/pyListener/build/pyListener/install.log --single-version-externally-managed install_data
+[0.513s] running egg_info
+[0.514s] creating ../build/pyListener/pyListener.egg-info
+[0.514s] writing ../build/pyListener/pyListener.egg-info/PKG-INFO
+[0.514s] writing dependency_links to ../build/pyListener/pyListener.egg-info/dependency_links.txt
+[0.514s] writing entry points to ../build/pyListener/pyListener.egg-info/entry_points.txt
+[0.514s] writing requirements to ../build/pyListener/pyListener.egg-info/requires.txt
+[0.514s] writing top-level names to ../build/pyListener/pyListener.egg-info/top_level.txt
+[0.514s] writing manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+[0.515s] reading manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+[0.516s] writing manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+[0.516s] running build
+[0.516s] running build_py
+[0.516s] creating /home/user/pyListener/build/pyListener/build
+[0.516s] creating /home/user/pyListener/build/pyListener/build/lib
+[0.516s] creating /home/user/pyListener/build/pyListener/build/lib/pyListener
+[0.516s] copying pyListener/pyListener.py -> /home/user/pyListener/build/pyListener/build/lib/pyListener
+[0.516s] copying pyListener/__init__.py -> /home/user/pyListener/build/pyListener/build/lib/pyListener
+[0.517s] running install
+[0.517s] running install_lib
+[0.517s] creating /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener
+[0.517s] copying /home/user/pyListener/build/pyListener/build/lib/pyListener/pyListener.py -> /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener
+[0.517s] copying /home/user/pyListener/build/pyListener/build/lib/pyListener/__init__.py -> /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener
+[0.517s] byte-compiling /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener/pyListener.py to pyListener.cpython-310.pyc
+[0.518s] byte-compiling /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener/__init__.py to __init__.cpython-310.pyc
+[0.518s] running install_data
+[0.519s] creating /home/user/pyListener/install/pyListener/share/ament_index
+[0.519s] creating /home/user/pyListener/install/pyListener/share/ament_index/resource_index
+[0.519s] creating /home/user/pyListener/install/pyListener/share/ament_index/resource_index/packages
+[0.519s] copying resource/pyListener -> /home/user/pyListener/install/pyListener/share/ament_index/resource_index/packages
+[0.519s] copying package.xml -> /home/user/pyListener/install/pyListener/share/pyListener
+[0.519s] running install_egg_info
+[0.520s] Copying ../build/pyListener/pyListener.egg-info to /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info
+[0.521s] running install_scripts
+[0.533s] Installing trajectory_processor script to /home/user/pyListener/install/pyListener/lib/pyListener
+[0.534s] writing list of installed files to '/home/user/pyListener/build/pyListener/install.log'
+[0.550s] Invoked command in '/home/user/pyListener/pyListener' returned '0': PYTHONPATH=/home/user/pyListener/build/pyListener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/pyListener/install/pyListener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pyListener build --build-base /home/user/pyListener/build/pyListener/build install --record /home/user/pyListener/build/pyListener/install.log --single-version-externally-managed install_data

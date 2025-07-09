@@ -1,0 +1,3 @@
+[console_scripts]
+httpController = httpController.httpController:main
+

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-05-16T13:05:17.225259",
+  "method": "POST",
+  "path": "/callback",
+  "headers": {
+    "Host": "xin700.top:11452",
+    "User-Agent": "python-requests/2.32.3",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Content-Length": "341",
+    "Content-Type": "application/json"
+  },
+  "body": "{\"EventType\": \"RoomCreate\", \"EventData\": \"{\\\"RoomId\\\":\\\"room1\\\",\\\"Timestamp\\\":1679383924691}\", \"EventTime\": \"2025-05-16T13:05:17.077255\", \"EventId\": \"aa4e93cc-c41a-48f4-b126-611584fafe90\", \"AppId\": \"test_app_id\", \"Version\": \"2020-12-01\", \"Nonce\": \"test077273\", \"Signature\": \"b6672f13bf57680410627c91115e7f36c59411ee8d35e78bac722af3fa3aecc5\"}",
+  "signature_verification": {
+    "signature_verified": true,
+    "verification_message": "Signature verification successful",
+    "event_id": "aa4e93cc-c41a-48f4-b126-611584fafe90"
+  }
+}

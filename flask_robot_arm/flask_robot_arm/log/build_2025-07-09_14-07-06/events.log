@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.002026] (httpController) JobQueued: {'identifier': 'httpController', 'dependencies': OrderedDict()}
+[0.002887] (httpController) JobStarted: {'identifier': 'httpController'}
+[0.098721] (-) TimerEvent: {}
+[0.199507] (-) TimerEvent: {}
+[0.300320] (-) TimerEvent: {}
+[0.401188] (-) TimerEvent: {}
+[0.502036] (-) TimerEvent: {}
+[0.602908] (-) TimerEvent: {}
+[0.703797] (-) TimerEvent: {}
+[0.804620] (-) TimerEvent: {}
+[0.905462] (-) TimerEvent: {}
+[1.006269] (-) TimerEvent: {}
+[1.107115] (-) TimerEvent: {}
+[1.207922] (-) TimerEvent: {}
+[1.308725] (-) TimerEvent: {}
+[1.409549] (-) TimerEvent: {}
+[1.510387] (-) TimerEvent: {}
+[1.611300] (-) TimerEvent: {}
+[1.712210] (-) TimerEvent: {}
+[1.813105] (-) TimerEvent: {}
+[1.913965] (-) TimerEvent: {}
+[2.014786] (-) TimerEvent: {}
+[2.115616] (-) TimerEvent: {}
+[2.216436] (-) TimerEvent: {}
+[2.317354] (-) TimerEvent: {}
+[2.418225] (-) TimerEvent: {}
+[2.519056] (-) TimerEvent: {}
+[2.619907] (-) TimerEvent: {}
+[2.720734] (-) TimerEvent: {}
+[2.821552] (-) TimerEvent: {}
+[2.922366] (-) TimerEvent: {}
+[3.023204] (-) TimerEvent: {}
+[3.124006] (-) TimerEvent: {}
+[3.224812] (-) TimerEvent: {}
+[3.325621] (-) TimerEvent: {}
+[3.426469] (-) TimerEvent: {}
+[3.527384] (-) TimerEvent: {}
+[3.628178] (-) TimerEvent: {}
+[3.729002] (-) TimerEvent: {}
+[3.829850] (-) TimerEvent: {}
+[3.930799] (-) TimerEvent: {}
+[4.031724] (-) TimerEvent: {}
+[4.098439] (httpController) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/httpController', 'build', '--build-base', '/home/sunrise/flask_robot_arm/build/httpController/build', 'install', '--record', '/home/sunrise/flask_robot_arm/build/httpController/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/flask_robot_arm/src/httpController', 'env': {'CONDA_PROMPT_MODIFIER': '(base)', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'sunrise', 'SSH_CLIENT': '192.168.0.90 61940 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/home/sunrise/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/sunrise', 'TERM_PROGRAM_VERSION': '1.101.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-69b06c78-d615-4f60-9b48-5ec0611df423.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'COLCON_PREFIX_PATH': '/home/sunrise/flask_robot_arm/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-2901c5ac6db8a986a5666c3af51ff804d05af0d4/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/bundled/scripts/noConfigScripts:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-087929818b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sunrise/flask_robot_arm/install/httpController:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/sunrise/anaconda3/bin/python', 'SHELL': '/bin/bash', 'CONDA_DEFAULT_ENV': 'base', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/flask_robot_arm/build/httpController', 'CONDA_EXE': '/home/sunrise/anaconda3/bin/conda', 'SSH_CONNECTION': '192.168.0.90 61940 192.168.0.135 22', 'PYTHONPATH': '/home/sunrise/flask_robot_arm/build/httpController/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages:/home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'CONDA_PREFIX': '/home/sunrise/anaconda3', 'COLCON': '1'}, 'shell': False}
+[4.131874] (-) TimerEvent: {}
+[4.232688] (-) TimerEvent: {}
+[4.333508] (-) TimerEvent: {}
+[4.434336] (-) TimerEvent: {}
+[4.535135] (-) TimerEvent: {}
+[4.635951] (-) TimerEvent: {}
+[4.736795] (-) TimerEvent: {}
+[4.837595] (-) TimerEvent: {}
+[4.938385] (-) TimerEvent: {}
+[5.039209] (-) TimerEvent: {}
+[5.140038] (-) TimerEvent: {}
+[5.240911] (-) TimerEvent: {}
+[5.341762] (-) TimerEvent: {}
+[5.442608] (-) TimerEvent: {}
+[5.543468] (-) TimerEvent: {}
+[5.628614] (httpController) StdoutLine: {'line': b'running egg_info\n'}
+[5.632749] (httpController) StdoutLine: {'line': b'writing ../../build/httpController/httpController.egg-info/PKG-INFO\n'}
+[5.633926] (httpController) StdoutLine: {'line': b'writing dependency_links to ../../build/httpController/httpController.egg-info/dependency_links.txt\n'}
+[5.634925] (httpController) StdoutLine: {'line': b'writing entry points to ../../build/httpController/httpController.egg-info/entry_points.txt\n'}
+[5.635686] (httpController) StdoutLine: {'line': b'writing requirements to ../../build/httpController/httpController.egg-info/requires.txt\n'}
+[5.636304] (httpController) StdoutLine: {'line': b'writing top-level names to ../../build/httpController/httpController.egg-info/top_level.txt\n'}
+[5.643624] (-) TimerEvent: {}
+[5.648431] (httpController) StdoutLine: {'line': b"reading manifest file '../../build/httpController/httpController.egg-info/SOURCES.txt'\n"}
+[5.653853] (httpController) StdoutLine: {'line': b"writing manifest file '../../build/httpController/httpController.egg-info/SOURCES.txt'\n"}
+[5.654697] (httpController) StdoutLine: {'line': b'running build\n'}
+[5.655204] (httpController) StdoutLine: {'line': b'running build_py\n'}
+[5.656325] (httpController) StdoutLine: {'line': b'running install\n'}
+[5.658127] (httpController) StdoutLine: {'line': b'running install_lib\n'}
+[5.664614] (httpController) StdoutLine: {'line': b'running install_data\n'}
+[5.665428] (httpController) StdoutLine: {'line': b'copying package.xml -> /home/sunrise/flask_robot_arm/install/httpController/share/httpController\n'}
+[5.666009] (httpController) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.676105] (httpController) StdoutLine: {'line': b"removing '/home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.677794] (httpController) StdoutLine: {'line': b'Copying ../../build/httpController/httpController.egg-info to /home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController-0.0.0-py3.10.egg-info\n'}
+[5.682443] (httpController) StdoutLine: {'line': b'running install_scripts\n'}
+[5.743808] (-) TimerEvent: {}
+[5.805081] (httpController) StdoutLine: {'line': b'Installing httpController script to /home/sunrise/flask_robot_arm/install/httpController/lib/httpController\n'}
+[5.807005] (httpController) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/flask_robot_arm/build/httpController/install.log'\n"}
+[5.844031] (-) TimerEvent: {}
+[5.944947] (-) TimerEvent: {}
+[6.009085] (httpController) CommandEnded: {'returncode': 0}
+[6.045849] (-) TimerEvent: {}
+[6.090870] (httpController) JobEnded: {'identifier': 'httpController', 'rc': 0}
+[6.094115] (-) EventReactorShutdown: {}

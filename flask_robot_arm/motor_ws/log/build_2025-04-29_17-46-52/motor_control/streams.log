@@ -1,0 +1,25 @@
+[4.189s] Invoking command in '/home/sunrise/motor_ws/src/motor_control': PYTHONPATH=/home/sunrise/motor_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/sunrise/motor_ws/build/motor_control/build install --record /home/sunrise/motor_ws/build/motor_control/install.log --single-version-externally-managed install_data
+[5.716s] running egg_info
+[5.720s] writing ../../build/motor_control/motor_control.egg-info/PKG-INFO
+[5.721s] writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt
+[5.722s] writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt
+[5.722s] writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt
+[5.723s] writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt
+[5.733s] reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[5.739s] writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'
+[5.739s] running build
+[5.740s] running build_py
+[5.740s] copying motor_control/motor_node.py -> /home/sunrise/motor_ws/build/motor_control/build/lib/motor_control
+[5.741s] running install
+[5.743s] running install_lib
+[5.749s] copying /home/sunrise/motor_ws/build/motor_control/build/lib/motor_control/motor_node.py -> /home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages/motor_control
+[5.752s] byte-compiling /home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages/motor_control/motor_node.py to motor_node.cpython-310.pyc
+[5.753s] Sorry: IndentationError: expected an indented block after function definition on line 77 (motor_node.py, line 84)
+[5.753s] running install_data
+[5.754s] running install_egg_info
+[5.765s] removing '/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)
+[5.767s] Copying ../../build/motor_control/motor_control.egg-info to /home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info
+[5.771s] running install_scripts
+[5.899s] Installing motor_node script to /home/sunrise/motor_ws/install/motor_control/lib/motor_control
+[5.901s] writing list of installed files to '/home/sunrise/motor_ws/build/motor_control/install.log'
+[6.111s] Invoked command in '/home/sunrise/motor_ws/src/motor_control' returned '0': PYTHONPATH=/home/sunrise/motor_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_control build --build-base /home/sunrise/motor_ws/build/motor_control/build install --record /home/sunrise/motor_ws/build/motor_control/install.log --single-version-externally-managed install_data

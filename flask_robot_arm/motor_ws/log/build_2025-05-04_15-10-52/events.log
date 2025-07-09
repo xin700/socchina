@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000741] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.001401] (-) JobUnselected: {'identifier': 'motor_msg'}
+[0.002513] (-) JobUnselected: {'identifier': 'receive_msg'}
+[0.003309] (motor_state) JobQueued: {'identifier': 'motor_state', 'dependencies': OrderedDict([('motor_msg', '/home/sunrise/motor_ws/install/motor_msg')])}
+[0.004024] (motor_state) JobStarted: {'identifier': 'motor_state'}
+[0.098926] (-) TimerEvent: {}
+[0.199782] (-) TimerEvent: {}
+[0.300604] (-) TimerEvent: {}
+[0.401480] (-) TimerEvent: {}
+[0.502353] (-) TimerEvent: {}
+[0.603237] (-) TimerEvent: {}
+[0.704078] (-) TimerEvent: {}
+[0.804933] (-) TimerEvent: {}
+[0.905814] (-) TimerEvent: {}
+[1.006628] (-) TimerEvent: {}
+[1.107426] (-) TimerEvent: {}
+[1.208253] (-) TimerEvent: {}
+[1.309091] (-) TimerEvent: {}
+[1.409925] (-) TimerEvent: {}
+[1.510796] (-) TimerEvent: {}
+[1.611849] (-) TimerEvent: {}
+[1.712861] (-) TimerEvent: {}
+[1.829602] (-) TimerEvent: {}
+[1.930416] (-) TimerEvent: {}
+[2.031241] (-) TimerEvent: {}
+[2.132041] (-) TimerEvent: {}
+[2.232839] (-) TimerEvent: {}
+[2.333642] (-) TimerEvent: {}
+[2.434455] (-) TimerEvent: {}
+[2.535274] (-) TimerEvent: {}
+[2.636101] (-) TimerEvent: {}
+[2.736926] (-) TimerEvent: {}
+[2.837773] (-) TimerEvent: {}
+[2.938735] (-) TimerEvent: {}
+[3.039899] (-) TimerEvent: {}
+[3.140700] (-) TimerEvent: {}
+[3.241487] (-) TimerEvent: {}
+[3.342280] (-) TimerEvent: {}
+[3.443120] (-) TimerEvent: {}
+[3.544111] (-) TimerEvent: {}
+[3.645079] (-) TimerEvent: {}
+[3.746110] (-) TimerEvent: {}
+[3.847106] (-) TimerEvent: {}
+[3.934400] (motor_state) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_state', 'build', '--build-base', '/home/sunrise/motor_ws/build/motor_state/build', 'install', '--record', '/home/sunrise/motor_ws/build/motor_state/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/motor_ws/src/motor_state', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'sunrise', 'SSH_CLIENT': '192.168.0.90 61747 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sunrise/motor_ws/install/motor_msg/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib', 'BROWSER': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/sunrise', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2de8f711-fb49-4bae-af59-95b2d52484d6.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TROS_DISTRO': 'humble', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f365c1e00d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sunrise/motor_ws/install/motor_msg:/opt/tros/humble:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/sunrise/anaconda3/bin/python', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/motor_ws/build/motor_state', 'CONDA_EXE': '/home/sunrise/anaconda3/bin/conda', 'SSH_CONNECTION': '192.168.0.90 61747 192.168.0.134 22', 'PYTHONPATH': '/home/sunrise/motor_ws/build/motor_state/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sunrise/motor_ws/install/motor_msg'}, 'shell': False}
+[3.948937] (-) TimerEvent: {}
+[4.050143] (-) TimerEvent: {}
+[4.150957] (-) TimerEvent: {}
+[4.251761] (-) TimerEvent: {}
+[4.352568] (-) TimerEvent: {}
+[4.453362] (-) TimerEvent: {}
+[4.554163] (-) TimerEvent: {}
+[4.654953] (-) TimerEvent: {}
+[4.755738] (-) TimerEvent: {}
+[4.856520] (-) TimerEvent: {}
+[4.957333] (-) TimerEvent: {}
+[5.058193] (-) TimerEvent: {}
+[5.159019] (-) TimerEvent: {}
+[5.259821] (-) TimerEvent: {}
+[5.360630] (-) TimerEvent: {}
+[5.363364] (motor_state) StdoutLine: {'line': b'running egg_info\n'}
+[5.367624] (motor_state) StdoutLine: {'line': b'writing ../../build/motor_state/motor_state.egg-info/PKG-INFO\n'}
+[5.368848] (motor_state) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_state/motor_state.egg-info/dependency_links.txt\n'}
+[5.369791] (motor_state) StdoutLine: {'line': b'writing entry points to ../../build/motor_state/motor_state.egg-info/entry_points.txt\n'}
+[5.370484] (motor_state) StdoutLine: {'line': b'writing requirements to ../../build/motor_state/motor_state.egg-info/requires.txt\n'}
+[5.371076] (motor_state) StdoutLine: {'line': b'writing top-level names to ../../build/motor_state/motor_state.egg-info/top_level.txt\n'}
+[5.380167] (motor_state) StdoutLine: {'line': b"reading manifest file '../../build/motor_state/motor_state.egg-info/SOURCES.txt'\n"}
+[5.385458] (motor_state) StdoutLine: {'line': b"writing manifest file '../../build/motor_state/motor_state.egg-info/SOURCES.txt'\n"}
+[5.386284] (motor_state) StdoutLine: {'line': b'running build\n'}
+[5.386892] (motor_state) StdoutLine: {'line': b'running build_py\n'}
+[5.387613] (motor_state) StdoutLine: {'line': b'creating /home/sunrise/motor_ws/build/motor_state/build/lib/motor_state\n'}
+[5.388237] (motor_state) StdoutLine: {'line': b'copying motor_state/state_node.py -> /home/sunrise/motor_ws/build/motor_state/build/lib/motor_state\n'}
+[5.388790] (motor_state) StdoutLine: {'line': b'copying motor_state/__init__.py -> /home/sunrise/motor_ws/build/motor_state/build/lib/motor_state\n'}
+[5.389424] (motor_state) StdoutLine: {'line': b'running install\n'}
+[5.390754] (motor_state) StdoutLine: {'line': b'running install_lib\n'}
+[5.395584] (motor_state) StdoutLine: {'line': b'creating /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state\n'}
+[5.396518] (motor_state) StdoutLine: {'line': b'copying /home/sunrise/motor_ws/build/motor_state/build/lib/motor_state/state_node.py -> /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state\n'}
+[5.397211] (motor_state) StdoutLine: {'line': b'copying /home/sunrise/motor_ws/build/motor_state/build/lib/motor_state/__init__.py -> /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state\n'}
+[5.399749] (motor_state) StdoutLine: {'line': b'byte-compiling /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state/state_node.py to state_node.cpython-310.pyc\n'}
+[5.405036] (motor_state) StdoutLine: {'line': b'byte-compiling /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state/__init__.py to __init__.cpython-310.pyc\n'}
+[5.405953] (motor_state) StdoutLine: {'line': b'running install_data\n'}
+[5.406623] (motor_state) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.416188] (motor_state) StdoutLine: {'line': b"removing '/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.417695] (motor_state) StdoutLine: {'line': b'Copying ../../build/motor_state/motor_state.egg-info to /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state-0.0.0-py3.10.egg-info\n'}
+[5.423052] (motor_state) StdoutLine: {'line': b'running install_scripts\n'}
+[5.460838] (-) TimerEvent: {}
+[5.540536] (motor_state) StdoutLine: {'line': b'Installing state_node script to /home/sunrise/motor_ws/install/motor_state/lib/motor_state\n'}
+[5.542488] (motor_state) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/motor_ws/build/motor_state/install.log'\n"}
+[5.561055] (-) TimerEvent: {}
+[5.662074] (-) TimerEvent: {}
+[5.743883] (motor_state) CommandEnded: {'returncode': 0}
+[5.762194] (-) TimerEvent: {}
+[5.820796] (motor_state) JobEnded: {'identifier': 'motor_state', 'rc': 0}
+[5.824190] (-) EventReactorShutdown: {}

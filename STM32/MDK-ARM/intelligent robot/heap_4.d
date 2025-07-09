@@ -1,0 +1,13 @@
+intelligent robot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+intelligent robot\heap_4.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdlib.h
+intelligent robot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+intelligent robot\heap_4.o: D:\STM32\ARM\ARMCC\Bin\..\include\stddef.h
+intelligent robot\heap_4.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdint.h
+intelligent robot\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+intelligent robot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+intelligent robot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+intelligent robot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+intelligent robot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+intelligent robot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+intelligent robot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+intelligent robot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

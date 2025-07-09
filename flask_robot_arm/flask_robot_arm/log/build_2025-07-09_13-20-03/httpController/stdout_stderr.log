@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/httpController/httpController.egg-info
+writing ../../build/httpController/httpController.egg-info/PKG-INFO
+writing dependency_links to ../../build/httpController/httpController.egg-info/dependency_links.txt
+writing entry points to ../../build/httpController/httpController.egg-info/entry_points.txt
+writing requirements to ../../build/httpController/httpController.egg-info/requires.txt
+writing top-level names to ../../build/httpController/httpController.egg-info/top_level.txt
+writing manifest file '../../build/httpController/httpController.egg-info/SOURCES.txt'
+reading manifest file '../../build/httpController/httpController.egg-info/SOURCES.txt'
+writing manifest file '../../build/httpController/httpController.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sunrise/flask_robot_arm/build/httpController/build
+creating /home/sunrise/flask_robot_arm/build/httpController/build/lib
+creating /home/sunrise/flask_robot_arm/build/httpController/build/lib/httpController
+copying httpController/httpController.py -> /home/sunrise/flask_robot_arm/build/httpController/build/lib/httpController
+copying httpController/__init__.py -> /home/sunrise/flask_robot_arm/build/httpController/build/lib/httpController
+running install
+running install_lib
+creating /home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController
+copying /home/sunrise/flask_robot_arm/build/httpController/build/lib/httpController/httpController.py -> /home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController
+copying /home/sunrise/flask_robot_arm/build/httpController/build/lib/httpController/__init__.py -> /home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController
+byte-compiling /home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController/httpController.py to httpController.cpython-310.pyc
+byte-compiling /home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sunrise/flask_robot_arm/install/httpController/share/ament_index
+creating /home/sunrise/flask_robot_arm/install/httpController/share/ament_index/resource_index
+creating /home/sunrise/flask_robot_arm/install/httpController/share/ament_index/resource_index/packages
+copying resource/httpController -> /home/sunrise/flask_robot_arm/install/httpController/share/ament_index/resource_index/packages
+copying package.xml -> /home/sunrise/flask_robot_arm/install/httpController/share/httpController
+running install_egg_info
+Copying ../../build/httpController/httpController.egg-info to /home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController-0.0.0-py3.10.egg-info
+running install_scripts
+Installing httpController script to /home/sunrise/flask_robot_arm/install/httpController/lib/httpController
+writing list of installed files to '/home/sunrise/flask_robot_arm/build/httpController/install.log'

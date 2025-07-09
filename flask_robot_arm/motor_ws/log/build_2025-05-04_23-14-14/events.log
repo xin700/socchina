@@ -1,0 +1,475 @@
+[0.000000] (-) TimerEvent: {}
+[0.001406] (motor_msg) JobQueued: {'identifier': 'motor_msg', 'dependencies': OrderedDict()}
+[0.002723] (receive_msg) JobQueued: {'identifier': 'receive_msg', 'dependencies': OrderedDict()}
+[0.003572] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict([('motor_msg', '/home/sunrise/motor_ws/install/motor_msg')])}
+[0.004377] (motor_state) JobQueued: {'identifier': 'motor_state', 'dependencies': OrderedDict([('receive_msg', '/home/sunrise/motor_ws/install/receive_msg')])}
+[0.004657] (motor_msg) JobStarted: {'identifier': 'motor_msg'}
+[0.040216] (receive_msg) JobStarted: {'identifier': 'receive_msg'}
+[0.068160] (motor_msg) JobProgress: {'identifier': 'motor_msg', 'progress': 'cmake'}
+[0.071783] (motor_msg) JobProgress: {'identifier': 'motor_msg', 'progress': 'build'}
+[0.075713] (motor_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/motor_ws/build/motor_msg', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/motor_ws/build/motor_msg', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.0.90 55914 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/motor_ws/install/receive_msg/lib:/home/sunrise/motor_ws/install/motor_msg/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3125913d-7f9b-4b43-8e1d-e7f42427a53c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/motor_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f365c1e00d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/receive_msg:/home/sunrise/motor_ws/install/motor_control:/home/sunrise/motor_ws/install/motor_msg:/opt/tros/humble:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/motor_ws/build/motor_msg'), ('CONDA_EXE', '/home/sunrise/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.0.90 55914 192.168.0.134 22'), ('PYTHONPATH', '/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages:/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/motor_ws/install/receive_msg:/home/sunrise/motor_ws/install/motor_msg:/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/motor_control:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.092901] (receive_msg) JobProgress: {'identifier': 'receive_msg', 'progress': 'cmake'}
+[0.096911] (receive_msg) JobProgress: {'identifier': 'receive_msg', 'progress': 'build'}
+[0.099703] (receive_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/motor_ws/build/receive_msg', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/motor_ws/build/receive_msg', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.0.90 55914 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/motor_ws/install/receive_msg/lib:/home/sunrise/motor_ws/install/motor_msg/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3125913d-7f9b-4b43-8e1d-e7f42427a53c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/motor_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f365c1e00d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/receive_msg:/home/sunrise/motor_ws/install/motor_control:/home/sunrise/motor_ws/install/motor_msg:/opt/tros/humble:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/motor_ws/build/receive_msg'), ('CONDA_EXE', '/home/sunrise/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.0.90 55914 192.168.0.134 22'), ('PYTHONPATH', '/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages:/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/motor_ws/install/receive_msg:/home/sunrise/motor_ws/install/motor_msg:/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/motor_control:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.108662] (-) TimerEvent: {}
+[0.209506] (-) TimerEvent: {}
+[0.314248] (-) TimerEvent: {}
+[0.317423] (motor_msg) StdoutLine: {'line': b'[  9%] Built target motor_msg__rosidl_generator_c\n'}
+[0.318849] (motor_msg) StdoutLine: {'line': b'[ 12%] Built target motor_msg__cpp\n'}
+[0.368050] (receive_msg) StdoutLine: {'line': b'[  9%] Built target receive_msg__rosidl_generator_c\n'}
+[0.371597] (receive_msg) StdoutLine: {'line': b'[ 12%] Built target receive_msg__cpp\n'}
+[0.401003] (motor_msg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_motor_msg\n'}
+[0.414855] (-) TimerEvent: {}
+[0.452714] (motor_msg) StdoutLine: {'line': b'[ 22%] Built target motor_msg__rosidl_typesupport_introspection_c\n'}
+[0.458067] (receive_msg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_receive_msg\n'}
+[0.459517] (motor_msg) StdoutLine: {'line': b'[ 32%] Built target motor_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.498047] (motor_msg) StdoutLine: {'line': b'[ 41%] Built target motor_msg__rosidl_typesupport_cpp\n'}
+[0.499802] (motor_msg) StdoutLine: {'line': b'[ 51%] Built target motor_msg__rosidl_typesupport_fastrtps_c\n'}
+[0.520786] (-) TimerEvent: {}
+[0.533584] (motor_msg) StdoutLine: {'line': b'[ 70%] Built target motor_msg__rosidl_typesupport_c\n'}
+[0.541232] (motor_msg) StdoutLine: {'line': b'[ 70%] Built target motor_msg__rosidl_typesupport_introspection_cpp\n'}
+[0.555100] (receive_msg) StdoutLine: {'line': b'[ 22%] Built target receive_msg__rosidl_typesupport_introspection_c\n'}
+[0.559793] (receive_msg) StdoutLine: {'line': b'[ 32%] Built target receive_msg__rosidl_typesupport_c\n'}
+[0.573632] (receive_msg) StdoutLine: {'line': b'[ 41%] Built target receive_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[0.579030] (receive_msg) StdoutLine: {'line': b'[ 51%] Built target receive_msg__rosidl_typesupport_fastrtps_c\n'}
+[0.581652] (receive_msg) StdoutLine: {'line': b'[ 61%] Built target receive_msg__rosidl_typesupport_introspection_cpp\n'}
+[0.620979] (-) TimerEvent: {}
+[0.628286] (receive_msg) StdoutLine: {'line': b'[ 70%] Built target receive_msg__rosidl_typesupport_cpp\n'}
+[0.657479] (motor_msg) StdoutLine: {'line': b'[ 70%] Built target motor_msg\n'}
+[0.730355] (receive_msg) StdoutLine: {'line': b'[ 70%] Built target receive_msg\n'}
+[0.731348] (-) TimerEvent: {}
+[0.755857] (motor_msg) StdoutLine: {'line': b'[ 74%] Built target motor_msg__py\n'}
+[0.825964] (receive_msg) StdoutLine: {'line': b'[ 74%] Built target receive_msg__py\n'}
+[0.831583] (-) TimerEvent: {}
+[0.863996] (motor_msg) StdoutLine: {'line': b'[ 80%] Built target motor_msg__rosidl_generator_py\n'}
+[0.931817] (-) TimerEvent: {}
+[0.942581] (receive_msg) StdoutLine: {'line': b'[ 80%] Built target receive_msg__rosidl_generator_py\n'}
+[0.996954] (motor_msg) StdoutLine: {'line': b'[ 87%] Built target motor_msg__rosidl_typesupport_c__pyext\n'}
+[1.010703] (motor_msg) StdoutLine: {'line': b'[ 93%] Built target motor_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.017528] (motor_msg) StdoutLine: {'line': b'[100%] Built target motor_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[1.032104] (-) TimerEvent: {}
+[1.103754] (receive_msg) StdoutLine: {'line': b'[ 93%] Built target receive_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.105026] (receive_msg) StdoutLine: {'line': b'[ 93%] Built target receive_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[1.112969] (receive_msg) StdoutLine: {'line': b'[100%] Built target receive_msg__rosidl_typesupport_c__pyext\n'}
+[1.132282] (-) TimerEvent: {}
+[1.233220] (-) TimerEvent: {}
+[1.334178] (-) TimerEvent: {}
+[1.435148] (-) TimerEvent: {}
+[1.536093] (-) TimerEvent: {}
+[1.637023] (-) TimerEvent: {}
+[1.737948] (-) TimerEvent: {}
+[1.838993] (-) TimerEvent: {}
+[1.940008] (-) TimerEvent: {}
+[2.042263] (-) TimerEvent: {}
+[2.143319] (-) TimerEvent: {}
+[2.175489] (motor_msg) StdoutLine: {'line': b'running egg_info\n'}
+[2.180222] (motor_msg) StdoutLine: {'line': b'writing motor_msg.egg-info/PKG-INFO\n'}
+[2.181793] (motor_msg) StdoutLine: {'line': b'writing dependency_links to motor_msg.egg-info/dependency_links.txt\n'}
+[2.183169] (motor_msg) StdoutLine: {'line': b'writing top-level names to motor_msg.egg-info/top_level.txt\n'}
+[2.195759] (receive_msg) StdoutLine: {'line': b'running egg_info\n'}
+[2.198077] (motor_msg) StdoutLine: {'line': b"reading manifest file 'motor_msg.egg-info/SOURCES.txt'\n"}
+[2.200414] (receive_msg) StdoutLine: {'line': b'writing receive_msg.egg-info/PKG-INFO\n'}
+[2.201975] (motor_msg) StdoutLine: {'line': b"writing manifest file 'motor_msg.egg-info/SOURCES.txt'\n"}
+[2.202951] (receive_msg) StdoutLine: {'line': b'writing dependency_links to receive_msg.egg-info/dependency_links.txt\n'}
+[2.203997] (receive_msg) StdoutLine: {'line': b'writing top-level names to receive_msg.egg-info/top_level.txt\n'}
+[2.219088] (receive_msg) StdoutLine: {'line': b"reading manifest file 'receive_msg.egg-info/SOURCES.txt'\n"}
+[2.223161] (receive_msg) StdoutLine: {'line': b"writing manifest file 'receive_msg.egg-info/SOURCES.txt'\n"}
+[2.243581] (-) TimerEvent: {}
+[2.344807] (-) TimerEvent: {}
+[2.440394] (motor_msg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_motor_msg_egg\n'}
+[2.444973] (-) TimerEvent: {}
+[2.459330] (receive_msg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_receive_msg_egg\n'}
+[2.494173] (motor_msg) CommandEnded: {'returncode': 0}
+[2.498103] (motor_msg) JobProgress: {'identifier': 'motor_msg', 'progress': 'install'}
+[2.541106] (motor_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/motor_ws/build/motor_msg'], 'cwd': '/home/sunrise/motor_ws/build/motor_msg', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.0.90 55914 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/motor_ws/install/receive_msg/lib:/home/sunrise/motor_ws/install/motor_msg/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3125913d-7f9b-4b43-8e1d-e7f42427a53c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/motor_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f365c1e00d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/receive_msg:/home/sunrise/motor_ws/install/motor_control:/home/sunrise/motor_ws/install/motor_msg:/opt/tros/humble:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/motor_ws/build/motor_msg'), ('CONDA_EXE', '/home/sunrise/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.0.90 55914 192.168.0.134 22'), ('PYTHONPATH', '/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages:/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/motor_ws/install/receive_msg:/home/sunrise/motor_ws/install/motor_msg:/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/motor_control:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[2.546166] (-) TimerEvent: {}
+[2.550574] (receive_msg) CommandEnded: {'returncode': 0}
+[2.554386] (receive_msg) JobProgress: {'identifier': 'receive_msg', 'progress': 'install'}
+[2.555870] (receive_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/motor_ws/build/receive_msg'], 'cwd': '/home/sunrise/motor_ws/build/receive_msg', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.0.90 55914 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/motor_ws/install/receive_msg/lib:/home/sunrise/motor_ws/install/motor_msg/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3125913d-7f9b-4b43-8e1d-e7f42427a53c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/motor_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f365c1e00d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/receive_msg:/home/sunrise/motor_ws/install/motor_control:/home/sunrise/motor_ws/install/motor_msg:/opt/tros/humble:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/motor_ws/build/receive_msg'), ('CONDA_EXE', '/home/sunrise/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.0.90 55914 192.168.0.134 22'), ('PYTHONPATH', '/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages:/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/motor_ws/install/receive_msg:/home/sunrise/motor_ws/install/motor_msg:/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/motor_control:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[2.583133] (motor_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.584244] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/ament_index/resource_index/rosidl_interfaces/motor_msg\n'}
+[2.585220] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg\n'}
+[2.585927] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg\n'}
+[2.586629] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail\n'}
+[2.587364] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__functions.c\n'}
+[2.588323] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__struct.h\n'}
+[2.589126] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__functions.h\n'}
+[2.589761] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__type_support.h\n'}
+[2.590835] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/motor.h\n'}
+[2.591463] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.592121] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/environment/library_path.sh\n'}
+[2.592687] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/environment/library_path.dsv\n'}
+[2.593333] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/lib/libmotor_msg__rosidl_generator_c.so\n'}
+[2.594136] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg\n'}
+[2.594986] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg\n'}
+[2.595866] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.596618] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail\n'}
+[2.597467] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__rosidl_typesupport_fastrtps_c.h\n'}
+[2.599027] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/lib/libmotor_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[2.599847] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg\n'}
+[2.601013] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg\n'}
+[2.602034] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.602868] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail\n'}
+[2.603921] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__rosidl_typesupport_introspection_c.h\n'}
+[2.604837] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__type_support.c\n'}
+[2.605901] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/lib/libmotor_msg__rosidl_typesupport_introspection_c.so\n'}
+[2.607385] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/lib/libmotor_msg__rosidl_typesupport_c.so\n'}
+[2.608433] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg\n'}
+[2.609286] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg\n'}
+[2.610061] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.611117] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail\n'}
+[2.611891] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__traits.hpp\n'}
+[2.612598] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__struct.hpp\n'}
+[2.613681] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__type_support.hpp\n'}
+[2.614889] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__builder.hpp\n'}
+[2.615773] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/motor.hpp\n'}
+[2.616597] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg\n'}
+[2.617405] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg\n'}
+[2.618574] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail\n'}
+[2.619526] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.620268] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/dds_fastrtps\n'}
+[2.620969] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.621618] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/lib/libmotor_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.622226] (receive_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.622879] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/rosidl_interfaces/receive_msg\n'}
+[2.623477] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[2.624063] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg\n'}
+[2.624705] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[2.625445] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg\n'}
+[2.626169] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail\n'}
+[2.626825] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/receive.h\n'}
+[2.627482] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[2.628138] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__struct.h\n'}
+[2.628779] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__functions.c\n'}
+[2.629388] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__functions.h\n'}
+[2.630006] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.630814] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/include/motor_msg/motor_msg/msg/detail/motor__type_support.cpp\n'}
+[2.631502] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.h\n'}
+[2.632157] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.632820] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/library_path.sh\n'}
+[2.633447] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/library_path.dsv\n'}
+[2.634050] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/lib/libmotor_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[2.634680] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_generator_c.so\n'}
+[2.635296] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/lib/libmotor_msg__rosidl_typesupport_cpp.so\n'}
+[2.635955] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[2.636645] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[2.637339] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/environment/pythonpath.sh\n'}
+[2.638037] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/environment/pythonpath.dsv\n'}
+[2.638699] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.639363] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[2.640006] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_fastrtps_c.h\n'}
+[2.640771] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg-0.0.0-py3.10.egg-info\n'}
+[2.641540] (motor_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.642230] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[2.642897] (motor_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.643541] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[2.644178] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[2.644803] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.645449] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[2.646047] (motor_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.646629] (-) TimerEvent: {}
+[2.647202] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_introspection_c.h\n'}
+[2.647899] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.c\n'}
+[2.648530] (motor_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.649167] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_introspection_c.so\n'}
+[2.649887] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg\n'}
+[2.650638] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/libmotor_msg__rosidl_generator_py.so\n'}
+[2.651300] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_c.so\n'}
+[2.651956] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/_motor_msg_s.ep.rosidl_typesupport_c.c\n'}
+[2.652620] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/msg\n'}
+[2.653304] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/msg/_motor.py\n'}
+[2.653941] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/msg/_motor_s.c\n'}
+[2.654555] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/msg/__init__.py\n'}
+[2.655236] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/_motor_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.655865] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/motor_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.656522] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/motor_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.657162] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/__init__.py\n'}
+[2.657788] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/motor_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.658446] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/_motor_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.659096] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[2.659737] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[2.660501] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/receive.hpp\n'}
+[2.661229] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.661935] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[2.662670] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__struct.hpp\n'}
+[2.663429] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.hpp\n'}
+[2.664150] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__traits.hpp\n'}
+[2.664869] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__builder.hpp\n'}
+[2.665597] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[2.666271] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[2.666933] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[2.667588] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/dds_fastrtps\n'}
+[2.668232] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.668923] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.669566] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.670275] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[2.670965] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[2.671626] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[2.672313] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.cpp\n'}
+[2.672967] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.673664] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[2.674324] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_cpp.so\n'}
+[2.674983] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/pythonpath.sh\n'}
+[2.675644] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/pythonpath.dsv\n'}
+[2.676288] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info\n'}
+[2.676897] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.677501] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.678112] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.678714] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.679286] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg\n'}
+[2.679831] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/_receive_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.680439] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.681079] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.681641] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.682184] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/libreceive_msg__rosidl_generator_py.so\n'}
+[2.682734] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/_receive_msg_s.ep.rosidl_typesupport_c.c\n'}
+[2.683401] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg\n'}
+[2.683986] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/_receive.py\n'}
+[2.684508] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/_receive_s.c\n'}
+[2.685029] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/__init__.py\n'}
+[2.685566] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/_receive_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.686148] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/__init__.py\n'}
+[2.746807] (-) TimerEvent: {}
+[2.833061] (receive_msg) StdoutLine: {'line': b"Listing '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg'...\n"}
+[2.834189] (receive_msg) StdoutLine: {'line': b"Listing '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg'...\n"}
+[2.834976] (motor_msg) StdoutLine: {'line': b"Listing '/home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg'...\n"}
+[2.835700] (motor_msg) StdoutLine: {'line': b"Listing '/home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/msg'...\n"}
+[2.847007] (-) TimerEvent: {}
+[2.879152] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.880552] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.881890] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.884453] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/motor_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.885519] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_generator_py.so\n'}
+[2.886613] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/msg/Receive.idl\n'}
+[2.887718] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/msg/Receive.msg\n'}
+[2.888650] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/motor_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.890077] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/package_run_dependencies/receive_msg\n'}
+[2.891537] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/parent_prefix_path/receive_msg\n'}
+[2.892626] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/ament_prefix_path.sh\n'}
+[2.893987] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/ament_prefix_path.dsv\n'}
+[2.895455] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/path.sh\n'}
+[2.897185] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/path.dsv\n'}
+[2.898185] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.bash\n'}
+[2.899235] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages/motor_msg/motor_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.900431] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.sh\n'}
+[2.901689] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.zsh\n'}
+[2.902506] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.dsv\n'}
+[2.903276] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/package.dsv\n'}
+[2.904044] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/lib/libmotor_msg__rosidl_generator_py.so\n'}
+[2.905265] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/packages/receive_msg\n'}
+[2.906686] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/msg/Motor.idl\n'}
+[2.909245] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/msg/Motor.msg\n'}
+[2.911453] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_cExport.cmake\n'}
+[2.912513] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.913623] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/ament_index/resource_index/package_run_dependencies/motor_msg\n'}
+[2.914861] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/ament_index/resource_index/parent_prefix_path/motor_msg\n'}
+[2.916087] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/environment/ament_prefix_path.sh\n'}
+[2.916891] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.918073] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/environment/ament_prefix_path.dsv\n'}
+[2.919043] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/environment/path.sh\n'}
+[2.919870] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.921194] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/environment/path.dsv\n'}
+[2.922881] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/local_setup.bash\n'}
+[2.924086] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.925542] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.926812] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/local_setup.sh\n'}
+[2.928440] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/local_setup.zsh\n'}
+[2.929633] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cExport.cmake\n'}
+[2.930673] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.931682] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/local_setup.dsv\n'}
+[2.932852] (motor_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/package.dsv\n'}
+[2.934030] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_cppExport.cmake\n'}
+[2.934828] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.935968] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.937094] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/ament_index/resource_index/packages/motor_msg\n'}
+[2.937908] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/export_motor_msg__rosidl_generator_cExport.cmake\n'}
+[2.939034] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.940612] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.941792] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/export_motor_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.942521] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/export_motor_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.943706] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cppExport.cmake\n'}
+[2.944903] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.945656] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/export_motor_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.947553] (-) TimerEvent: {}
+[2.948247] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/motor_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.953826] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_pyExport.cmake\n'}
+[2.954763] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.955737] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/motor_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.956758] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[2.957766] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/motor_msg__rosidl_typesupport_cExport.cmake\n'}
+[2.958990] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/motor_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.959867] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.960819] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.961778] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.962795] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.963717] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.964698] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/export_motor_msg__rosidl_generator_cppExport.cmake\n'}
+[2.965748] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.967194] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/export_motor_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.968105] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msgConfig.cmake\n'}
+[2.968968] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msgConfig-version.cmake\n'}
+[2.969803] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/export_motor_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.970795] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/package.xml\n'}
+[2.971667] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/motor_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.972422] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/motor_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.973357] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/motor_msg__rosidl_typesupport_cppExport.cmake\n'}
+[2.974206] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/motor_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.975047] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/export_motor_msg__rosidl_generator_pyExport.cmake\n'}
+[2.975834] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/export_motor_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.976568] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[2.977312] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.978136] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.979023] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.979821] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.980792] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.981638] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.982495] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/motor_msgConfig.cmake\n'}
+[2.983294] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/cmake/motor_msgConfig-version.cmake\n'}
+[2.984107] (motor_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/motor_msg/share/motor_msg/package.xml\n'}
+[2.984878] (receive_msg) CommandEnded: {'returncode': 0}
+[3.047780] (-) TimerEvent: {}
+[3.110090] (receive_msg) JobEnded: {'identifier': 'receive_msg', 'rc': 0}
+[3.117569] (motor_state) JobStarted: {'identifier': 'motor_state'}
+[3.147476] (motor_msg) CommandEnded: {'returncode': 0}
+[3.152916] (-) TimerEvent: {}
+[3.253914] (-) TimerEvent: {}
+[3.271919] (motor_msg) JobEnded: {'identifier': 'motor_msg', 'rc': 0}
+[3.279705] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[3.354138] (-) TimerEvent: {}
+[3.455050] (-) TimerEvent: {}
+[3.556011] (-) TimerEvent: {}
+[3.657115] (-) TimerEvent: {}
+[3.758073] (-) TimerEvent: {}
+[3.859107] (-) TimerEvent: {}
+[3.960300] (-) TimerEvent: {}
+[4.061388] (-) TimerEvent: {}
+[4.162472] (-) TimerEvent: {}
+[4.263658] (-) TimerEvent: {}
+[4.364714] (-) TimerEvent: {}
+[4.465826] (-) TimerEvent: {}
+[4.566768] (-) TimerEvent: {}
+[4.667685] (-) TimerEvent: {}
+[4.768603] (-) TimerEvent: {}
+[4.869513] (-) TimerEvent: {}
+[4.970479] (-) TimerEvent: {}
+[5.071473] (-) TimerEvent: {}
+[5.172561] (-) TimerEvent: {}
+[5.273658] (-) TimerEvent: {}
+[5.374652] (-) TimerEvent: {}
+[5.475584] (-) TimerEvent: {}
+[5.576535] (-) TimerEvent: {}
+[5.677641] (-) TimerEvent: {}
+[5.778704] (-) TimerEvent: {}
+[5.879727] (-) TimerEvent: {}
+[5.981044] (-) TimerEvent: {}
+[6.082021] (-) TimerEvent: {}
+[6.182999] (-) TimerEvent: {}
+[6.283976] (-) TimerEvent: {}
+[6.384953] (-) TimerEvent: {}
+[6.485853] (-) TimerEvent: {}
+[6.586765] (-) TimerEvent: {}
+[6.687684] (-) TimerEvent: {}
+[6.788660] (-) TimerEvent: {}
+[6.889683] (-) TimerEvent: {}
+[6.990726] (-) TimerEvent: {}
+[7.091748] (-) TimerEvent: {}
+[7.192958] (-) TimerEvent: {}
+[7.294117] (-) TimerEvent: {}
+[7.395139] (-) TimerEvent: {}
+[7.500338] (-) TimerEvent: {}
+[7.607902] (-) TimerEvent: {}
+[7.710373] (-) TimerEvent: {}
+[7.811406] (-) TimerEvent: {}
+[7.912435] (-) TimerEvent: {}
+[8.013367] (-) TimerEvent: {}
+[8.114290] (-) TimerEvent: {}
+[8.215296] (-) TimerEvent: {}
+[8.320355] (-) TimerEvent: {}
+[8.430368] (-) TimerEvent: {}
+[8.531326] (-) TimerEvent: {}
+[8.632268] (-) TimerEvent: {}
+[8.733272] (-) TimerEvent: {}
+[8.834257] (-) TimerEvent: {}
+[8.935207] (-) TimerEvent: {}
+[9.036181] (-) TimerEvent: {}
+[9.137150] (-) TimerEvent: {}
+[9.238031] (-) TimerEvent: {}
+[9.338946] (-) TimerEvent: {}
+[9.439910] (-) TimerEvent: {}
+[9.541021] (-) TimerEvent: {}
+[9.642251] (-) TimerEvent: {}
+[9.687718] (motor_state) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_state', 'build', '--build-base', '/home/sunrise/motor_ws/build/motor_state/build', 'install', '--record', '/home/sunrise/motor_ws/build/motor_state/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/motor_ws/src/motor_state', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'sunrise', 'SSH_CLIENT': '192.168.0.90 55914 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sunrise/motor_ws/install/receive_msg/lib:/home/sunrise/motor_ws/install/motor_msg/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib', 'BROWSER': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/sunrise', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3125913d-7f9b-4b43-8e1d-e7f42427a53c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/sunrise/motor_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f365c1e00d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/receive_msg:/home/sunrise/motor_ws/install/motor_control:/home/sunrise/motor_ws/install/motor_msg:/opt/tros/humble:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/sunrise/anaconda3/bin/python', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/motor_ws/build/motor_state', 'CONDA_EXE': '/home/sunrise/anaconda3/bin/conda', 'SSH_CONNECTION': '192.168.0.90 55914 192.168.0.134 22', 'PYTHONPATH': '/home/sunrise/motor_ws/build/motor_state/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages:/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sunrise/motor_ws/install/receive_msg:/home/sunrise/motor_ws/install/motor_msg'}, 'shell': False}
+[9.725818] (motor_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_control', 'build', '--build-base', '/home/sunrise/motor_ws/build/motor_control/build', 'install', '--record', '/home/sunrise/motor_ws/build/motor_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/motor_ws/src/motor_control', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'sunrise', 'SSH_CLIENT': '192.168.0.90 55914 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sunrise/motor_ws/install/motor_msg/lib:/home/sunrise/motor_ws/install/receive_msg/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib', 'BROWSER': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/sunrise', 'TERM_PROGRAM_VERSION': '1.99.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3125913d-7f9b-4b43-8e1d-e7f42427a53c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/sunrise/motor_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f365c1e00d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/receive_msg:/home/sunrise/motor_ws/install/motor_control:/home/sunrise/motor_ws/install/motor_msg:/opt/tros/humble:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/sunrise/anaconda3/bin/python', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/motor_ws/build/motor_control', 'CONDA_EXE': '/home/sunrise/anaconda3/bin/conda', 'SSH_CONNECTION': '192.168.0.90 55914 192.168.0.134 22', 'PYTHONPATH': '/home/sunrise/motor_ws/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages:/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages:/home/sunrise/motor_ws/install/motor_msg/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sunrise/motor_ws/install/motor_msg:/home/sunrise/motor_ws/install/receive_msg'}, 'shell': False}
+[9.742399] (-) TimerEvent: {}
+[9.843350] (-) TimerEvent: {}
+[9.944281] (-) TimerEvent: {}
+[10.045253] (-) TimerEvent: {}
+[10.146171] (-) TimerEvent: {}
+[10.247082] (-) TimerEvent: {}
+[10.348101] (-) TimerEvent: {}
+[10.449052] (-) TimerEvent: {}
+[10.549971] (-) TimerEvent: {}
+[10.650952] (-) TimerEvent: {}
+[10.751867] (-) TimerEvent: {}
+[10.852773] (-) TimerEvent: {}
+[10.953732] (-) TimerEvent: {}
+[11.054715] (-) TimerEvent: {}
+[11.155670] (-) TimerEvent: {}
+[11.244929] (motor_state) StdoutLine: {'line': b'running egg_info\n'}
+[11.249195] (motor_state) StdoutLine: {'line': b'writing ../../build/motor_state/motor_state.egg-info/PKG-INFO\n'}
+[11.250662] (motor_state) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_state/motor_state.egg-info/dependency_links.txt\n'}
+[11.251809] (motor_state) StdoutLine: {'line': b'writing entry points to ../../build/motor_state/motor_state.egg-info/entry_points.txt\n'}
+[11.252901] (motor_state) StdoutLine: {'line': b'writing requirements to ../../build/motor_state/motor_state.egg-info/requires.txt\n'}
+[11.253736] (motor_state) StdoutLine: {'line': b'writing top-level names to ../../build/motor_state/motor_state.egg-info/top_level.txt\n'}
+[11.255816] (-) TimerEvent: {}
+[11.263951] (motor_state) StdoutLine: {'line': b"reading manifest file '../../build/motor_state/motor_state.egg-info/SOURCES.txt'\n"}
+[11.269146] (motor_state) StdoutLine: {'line': b"writing manifest file '../../build/motor_state/motor_state.egg-info/SOURCES.txt'\n"}
+[11.270071] (motor_state) StdoutLine: {'line': b'running build\n'}
+[11.270771] (motor_state) StdoutLine: {'line': b'running build_py\n'}
+[11.271720] (motor_state) StdoutLine: {'line': b'running install\n'}
+[11.273702] (motor_state) StdoutLine: {'line': b'running install_lib\n'}
+[11.278620] (motor_state) StdoutLine: {'line': b'creating /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_control\n'}
+[11.279545] (motor_state) StdoutLine: {'line': b'copying /home/sunrise/motor_ws/build/motor_state/build/lib/motor_control/motor_node.py -> /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_control\n'}
+[11.280370] (motor_state) StdoutLine: {'line': b'copying /home/sunrise/motor_ws/build/motor_state/build/lib/motor_control/__init__.py -> /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_control\n'}
+[11.281174] (motor_state) StdoutLine: {'line': b'creating /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state\n'}
+[11.281880] (motor_state) StdoutLine: {'line': b'copying /home/sunrise/motor_ws/build/motor_state/build/lib/motor_state/state_node.py -> /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state\n'}
+[11.282516] (motor_state) StdoutLine: {'line': b'copying /home/sunrise/motor_ws/build/motor_state/build/lib/motor_state/__init__.py -> /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state\n'}
+[11.285193] (motor_state) StdoutLine: {'line': b'byte-compiling /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_control/motor_node.py to motor_node.cpython-310.pyc\n'}
+[11.297251] (motor_state) StdoutLine: {'line': b'byte-compiling /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_control/__init__.py to __init__.cpython-310.pyc\n'}
+[11.298201] (motor_state) StdoutLine: {'line': b'byte-compiling /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state/state_node.py to state_node.cpython-310.pyc\n'}
+[11.301537] (motor_state) StdoutLine: {'line': b'byte-compiling /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state/__init__.py to __init__.cpython-310.pyc\n'}
+[11.302631] (motor_state) StdoutLine: {'line': b'running install_data\n'}
+[11.303322] (motor_state) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.312050] (motor_state) StdoutLine: {'line': b'Copying ../../build/motor_state/motor_state.egg-info to /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state-0.0.0-py3.10.egg-info\n'}
+[11.317733] (motor_state) StdoutLine: {'line': b'running install_scripts\n'}
+[11.334580] (motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[11.338897] (motor_control) StdoutLine: {'line': b'writing ../../build/motor_control/motor_control.egg-info/PKG-INFO\n'}
+[11.340391] (motor_control) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_control/motor_control.egg-info/dependency_links.txt\n'}
+[11.341583] (motor_control) StdoutLine: {'line': b'writing entry points to ../../build/motor_control/motor_control.egg-info/entry_points.txt\n'}
+[11.342576] (motor_control) StdoutLine: {'line': b'writing requirements to ../../build/motor_control/motor_control.egg-info/requires.txt\n'}
+[11.343450] (motor_control) StdoutLine: {'line': b'writing top-level names to ../../build/motor_control/motor_control.egg-info/top_level.txt\n'}
+[11.354311] (motor_control) StdoutLine: {'line': b"reading manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[11.355952] (-) TimerEvent: {}
+[11.359803] (motor_control) StdoutLine: {'line': b"writing manifest file '../../build/motor_control/motor_control.egg-info/SOURCES.txt'\n"}
+[11.361857] (motor_control) StdoutLine: {'line': b'running build\n'}
+[11.362839] (motor_control) StdoutLine: {'line': b'running build_py\n'}
+[11.364606] (motor_control) StdoutLine: {'line': b'running install\n'}
+[11.365612] (motor_control) StdoutLine: {'line': b'running install_lib\n'}
+[11.372728] (motor_control) StdoutLine: {'line': b'running install_data\n'}
+[11.374359] (motor_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.384451] (motor_control) StdoutLine: {'line': b"removing '/home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.386186] (motor_control) StdoutLine: {'line': b'Copying ../../build/motor_control/motor_control.egg-info to /home/sunrise/motor_ws/install/motor_control/lib/python3.10/site-packages/motor_control-0.0.0-py3.10.egg-info\n'}
+[11.391592] (motor_control) StdoutLine: {'line': b'running install_scripts\n'}
+[11.453552] (motor_state) StdoutLine: {'line': b'Installing state_node script to /home/sunrise/motor_ws/install/motor_state/lib/motor_state\n'}
+[11.455580] (motor_state) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/motor_ws/build/motor_state/install.log'\n"}
+[11.456353] (-) TimerEvent: {}
+[11.536005] (motor_control) StdoutLine: {'line': b'Installing motor_node script to /home/sunrise/motor_ws/install/motor_control/lib/motor_control\n'}
+[11.538411] (motor_control) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/motor_ws/build/motor_control/install.log'\n"}
+[11.556660] (-) TimerEvent: {}
+[11.657799] (-) TimerEvent: {}
+[11.696800] (motor_state) CommandEnded: {'returncode': 0}
+[11.747730] (motor_state) JobEnded: {'identifier': 'motor_state', 'rc': 0}
+[11.758014] (-) TimerEvent: {}
+[11.777564] (motor_control) CommandEnded: {'returncode': 0}
+[11.816466] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 0}
+[11.819746] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from motor_msg/msg/Motor.msg
+// generated code does not contain a copyright notice
+
+
+module motor_msg {
+  module msg {
+    struct Motor {
+      uint8 id;
+
+      float speed;
+
+      uint8 dir;
+
+      uint8 mode;
+
+      float angle;
+
+      uint8 state;
+
+      uint8 sub_divide;
+    };
+  };
+};

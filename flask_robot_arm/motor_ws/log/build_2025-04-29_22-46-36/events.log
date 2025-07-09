@@ -1,0 +1,447 @@
+[0.000000] (-) TimerEvent: {}
+[0.001165] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.002262] (-) JobUnselected: {'identifier': 'motor_msg'}
+[0.002983] (receive_msg) JobQueued: {'identifier': 'receive_msg', 'dependencies': OrderedDict()}
+[0.003714] (receive_msg) JobStarted: {'identifier': 'receive_msg'}
+[0.041897] (receive_msg) JobProgress: {'identifier': 'receive_msg', 'progress': 'cmake'}
+[0.043901] (receive_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/motor_ws/src/receive_msg', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/motor_ws/install/receive_msg'], 'cwd': '/home/sunrise/motor_ws/build/receive_msg', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.0.90 56124 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c5f66859-3130-48ca-be07-d0ccbf15b355.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TROS_DISTRO', 'humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f365c1e00d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/motor_ws/build/receive_msg'), ('CONDA_EXE', '/home/sunrise/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.0.90 56124 192.168.0.134 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.098890] (-) TimerEvent: {}
+[0.199889] (-) TimerEvent: {}
+[0.300825] (-) TimerEvent: {}
+[0.401735] (-) TimerEvent: {}
+[0.502769] (-) TimerEvent: {}
+[0.603687] (-) TimerEvent: {}
+[0.676308] (receive_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.703891] (-) TimerEvent: {}
+[0.804801] (-) TimerEvent: {}
+[0.905740] (-) TimerEvent: {}
+[1.006735] (-) TimerEvent: {}
+[1.107770] (-) TimerEvent: {}
+[1.208690] (-) TimerEvent: {}
+[1.238715] (receive_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.284831] (receive_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.308863] (-) TimerEvent: {}
+[1.409818] (-) TimerEvent: {}
+[1.510776] (-) TimerEvent: {}
+[1.611810] (-) TimerEvent: {}
+[1.679041] (receive_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.712130] (-) TimerEvent: {}
+[1.760530] (receive_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.762405] (receive_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.765517] (receive_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.784412] (receive_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.812325] (-) TimerEvent: {}
+[1.913306] (-) TimerEvent: {}
+[2.014184] (-) TimerEvent: {}
+[2.115132] (-) TimerEvent: {}
+[2.204484] (receive_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.215432] (-) TimerEvent: {}
+[2.272571] (receive_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.273723] (receive_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.276123] (receive_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.297582] (receive_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.315619] (-) TimerEvent: {}
+[2.416601] (-) TimerEvent: {}
+[2.517496] (-) TimerEvent: {}
+[2.618415] (-) TimerEvent: {}
+[2.719349] (-) TimerEvent: {}
+[2.820248] (-) TimerEvent: {}
+[2.921091] (-) TimerEvent: {}
+[3.022019] (-) TimerEvent: {}
+[3.122849] (-) TimerEvent: {}
+[3.221917] (receive_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.224242] (-) TimerEvent: {}
+[3.325158] (-) TimerEvent: {}
+[3.425984] (-) TimerEvent: {}
+[3.526812] (-) TimerEvent: {}
+[3.627709] (-) TimerEvent: {}
+[3.728728] (-) TimerEvent: {}
+[3.830117] (-) TimerEvent: {}
+[3.842099] (receive_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.859221] (receive_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.893334] (receive_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.930306] (-) TimerEvent: {}
+[4.031226] (-) TimerEvent: {}
+[4.120128] (receive_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.131356] (-) TimerEvent: {}
+[4.232150] (-) TimerEvent: {}
+[4.319860] (receive_msg) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[4.332299] (-) TimerEvent: {}
+[4.433109] (-) TimerEvent: {}
+[4.533978] (-) TimerEvent: {}
+[4.634810] (-) TimerEvent: {}
+[4.735661] (-) TimerEvent: {}
+[4.836588] (-) TimerEvent: {}
+[4.937441] (-) TimerEvent: {}
+[5.038268] (-) TimerEvent: {}
+[5.139100] (-) TimerEvent: {}
+[5.240006] (-) TimerEvent: {}
+[5.340854] (-) TimerEvent: {}
+[5.441736] (-) TimerEvent: {}
+[5.542739] (-) TimerEvent: {}
+[5.643907] (-) TimerEvent: {}
+[5.744790] (-) TimerEvent: {}
+[5.845831] (-) TimerEvent: {}
+[5.918513] (receive_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.946070] (-) TimerEvent: {}
+[6.047011] (-) TimerEvent: {}
+[6.147930] (-) TimerEvent: {}
+[6.248988] (-) TimerEvent: {}
+[6.349941] (-) TimerEvent: {}
+[6.450813] (-) TimerEvent: {}
+[6.551731] (-) TimerEvent: {}
+[6.652687] (-) TimerEvent: {}
+[6.753620] (-) TimerEvent: {}
+[6.854635] (-) TimerEvent: {}
+[6.955509] (-) TimerEvent: {}
+[7.053644] (receive_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.055702] (-) TimerEvent: {}
+[7.156741] (-) TimerEvent: {}
+[7.257645] (-) TimerEvent: {}
+[7.358574] (-) TimerEvent: {}
+[7.459500] (-) TimerEvent: {}
+[7.560411] (-) TimerEvent: {}
+[7.661401] (-) TimerEvent: {}
+[7.762806] (-) TimerEvent: {}
+[7.863847] (-) TimerEvent: {}
+[7.964874] (-) TimerEvent: {}
+[8.065763] (-) TimerEvent: {}
+[8.166839] (-) TimerEvent: {}
+[8.268130] (-) TimerEvent: {}
+[8.369025] (-) TimerEvent: {}
+[8.469958] (-) TimerEvent: {}
+[8.546933] (receive_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.570202] (-) TimerEvent: {}
+[8.671331] (-) TimerEvent: {}
+[8.683831] (receive_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[8.690591] (receive_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.771545] (-) TimerEvent: {}
+[8.854926] (receive_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[8.856086] (receive_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.856711] (receive_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.857250] (receive_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[8.871705] (-) TimerEvent: {}
+[8.972569] (-) TimerEvent: {}
+[8.976413] (receive_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.072750] (-) TimerEvent: {}
+[9.173687] (-) TimerEvent: {}
+[9.204693] (receive_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.273907] (-) TimerEvent: {}
+[9.308422] (receive_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.315198] (receive_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.328911] (receive_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.374137] (-) TimerEvent: {}
+[9.469349] (receive_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[9.474230] (-) TimerEvent: {}
+[9.523928] (receive_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/motor_ws/build/receive_msg\n'}
+[9.560413] (receive_msg) CommandEnded: {'returncode': 0}
+[9.563520] (receive_msg) JobProgress: {'identifier': 'receive_msg', 'progress': 'build'}
+[9.567914] (receive_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/motor_ws/build/receive_msg', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/motor_ws/build/receive_msg', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.0.90 56124 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c5f66859-3130-48ca-be07-d0ccbf15b355.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TROS_DISTRO', 'humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f365c1e00d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/motor_ws/build/receive_msg'), ('CONDA_EXE', '/home/sunrise/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.0.90 56124 192.168.0.134 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[9.575775] (-) TimerEvent: {}
+[9.678558] (-) TimerEvent: {}
+[9.749902] (receive_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.778753] (-) TimerEvent: {}
+[9.792260] (receive_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[9.827981] (receive_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_receive_msg\n'}
+[9.878949] (-) TimerEvent: {}
+[9.980979] (-) TimerEvent: {}
+[10.081920] (-) TimerEvent: {}
+[10.182818] (-) TimerEvent: {}
+[10.283726] (-) TimerEvent: {}
+[10.384792] (-) TimerEvent: {}
+[10.485794] (-) TimerEvent: {}
+[10.586663] (-) TimerEvent: {}
+[10.687514] (-) TimerEvent: {}
+[10.788412] (-) TimerEvent: {}
+[10.889334] (-) TimerEvent: {}
+[10.990241] (-) TimerEvent: {}
+[11.091121] (-) TimerEvent: {}
+[11.192007] (-) TimerEvent: {}
+[11.293126] (-) TimerEvent: {}
+[11.296388] (receive_msg) StdoutLine: {'line': b'running egg_info\n'}
+[11.300214] (receive_msg) StdoutLine: {'line': b'creating receive_msg.egg-info\n'}
+[11.301358] (receive_msg) StdoutLine: {'line': b'writing receive_msg.egg-info/PKG-INFO\n'}
+[11.302579] (receive_msg) StdoutLine: {'line': b'writing dependency_links to receive_msg.egg-info/dependency_links.txt\n'}
+[11.303622] (receive_msg) StdoutLine: {'line': b'writing top-level names to receive_msg.egg-info/top_level.txt\n'}
+[11.304862] (receive_msg) StdoutLine: {'line': b"writing manifest file 'receive_msg.egg-info/SOURCES.txt'\n"}
+[11.319598] (receive_msg) StdoutLine: {'line': b"reading manifest file 'receive_msg.egg-info/SOURCES.txt'\n"}
+[11.323228] (receive_msg) StdoutLine: {'line': b"writing manifest file 'receive_msg.egg-info/SOURCES.txt'\n"}
+[11.393366] (-) TimerEvent: {}
+[11.494583] (-) TimerEvent: {}
+[11.540076] (receive_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/receive_msg__rosidl_generator_c.dir/rosidl_generator_c/receive_msg/msg/detail/receive__functions.c.o\x1b[0m\n'}
+[11.541059] (receive_msg) StdoutLine: {'line': b'[  9%] Built target receive_msg__cpp\n'}
+[11.555572] (receive_msg) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_receive_msg_egg\n'}
+[11.582091] (receive_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.582984] (receive_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[11.583611] (receive_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.594811] (-) TimerEvent: {}
+[11.695776] (-) TimerEvent: {}
+[11.796676] (-) TimerEvent: {}
+[11.868339] (receive_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libreceive_msg__rosidl_generator_c.so\x1b[0m\n'}
+[11.896887] (-) TimerEvent: {}
+[11.997782] (-) TimerEvent: {}
+[12.076481] (receive_msg) StdoutLine: {'line': b'[ 22%] Built target receive_msg__rosidl_generator_c\n'}
+[12.098015] (-) TimerEvent: {}
+[12.122673] (receive_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.123827] (receive_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.125919] (receive_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.198252] (-) TimerEvent: {}
+[12.299666] (-) TimerEvent: {}
+[12.400612] (-) TimerEvent: {}
+[12.501972] (-) TimerEvent: {}
+[12.603298] (-) TimerEvent: {}
+[12.704264] (-) TimerEvent: {}
+[12.809338] (-) TimerEvent: {}
+[12.910254] (-) TimerEvent: {}
+[13.011211] (-) TimerEvent: {}
+[13.112247] (-) TimerEvent: {}
+[13.145326] (receive_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/receive_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/receive_msg/msg/receive__type_support.cpp.o\x1b[0m\n'}
+[13.212483] (-) TimerEvent: {}
+[13.238321] (receive_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/receive_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/receive_msg/msg/detail/receive__type_support.cpp.o\x1b[0m\n'}
+[13.312705] (-) TimerEvent: {}
+[13.338767] (receive_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/receive_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/receive_msg/msg/detail/dds_fastrtps/receive__type_support.cpp.o\x1b[0m\n'}
+[13.412905] (-) TimerEvent: {}
+[13.513892] (-) TimerEvent: {}
+[13.614935] (-) TimerEvent: {}
+[13.700310] (receive_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/receive_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/receive_msg/msg/receive__type_support.cpp.o\x1b[0m\n'}
+[13.715200] (-) TimerEvent: {}
+[13.816364] (-) TimerEvent: {}
+[13.846743] (receive_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/receive_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/receive_msg/msg/detail/receive__type_support.c.o\x1b[0m\n'}
+[13.873575] (receive_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libreceive_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.916596] (-) TimerEvent: {}
+[13.919333] (receive_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/receive_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/receive_msg/msg/detail/receive__type_support_c.cpp.o\x1b[0m\n'}
+[14.016866] (-) TimerEvent: {}
+[14.040016] (receive_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libreceive_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.076254] (receive_msg) StdoutLine: {'line': b'[ 58%] Built target receive_msg__rosidl_typesupport_c\n'}
+[14.118598] (-) TimerEvent: {}
+[14.182086] (receive_msg) StdoutLine: {'line': b'[ 58%] Built target receive_msg__rosidl_typesupport_introspection_c\n'}
+[14.218822] (-) TimerEvent: {}
+[14.319948] (-) TimerEvent: {}
+[14.421001] (-) TimerEvent: {}
+[14.522065] (-) TimerEvent: {}
+[14.623175] (-) TimerEvent: {}
+[14.724217] (-) TimerEvent: {}
+[14.825265] (-) TimerEvent: {}
+[14.926306] (-) TimerEvent: {}
+[14.955321] (receive_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libreceive_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[15.026549] (-) TimerEvent: {}
+[15.127595] (-) TimerEvent: {}
+[15.138412] (receive_msg) StdoutLine: {'line': b'[ 61%] Built target receive_msg__rosidl_typesupport_cpp\n'}
+[15.227845] (-) TimerEvent: {}
+[15.328916] (-) TimerEvent: {}
+[15.429982] (-) TimerEvent: {}
+[15.531026] (-) TimerEvent: {}
+[15.632132] (-) TimerEvent: {}
+[15.673110] (receive_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libreceive_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[15.732375] (-) TimerEvent: {}
+[15.833392] (-) TimerEvent: {}
+[15.854747] (receive_msg) StdoutLine: {'line': b'[ 64%] Built target receive_msg__rosidl_typesupport_introspection_cpp\n'}
+[15.933614] (-) TimerEvent: {}
+[15.934514] (receive_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libreceive_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.974385] (receive_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libreceive_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.033836] (-) TimerEvent: {}
+[16.135007] (-) TimerEvent: {}
+[16.236013] (-) TimerEvent: {}
+[16.337029] (-) TimerEvent: {}
+[16.425650] (receive_msg) StdoutLine: {'line': b'[ 70%] Built target receive_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[16.437215] (-) TimerEvent: {}
+[16.460386] (receive_msg) StdoutLine: {'line': b'[ 70%] Built target receive_msg__rosidl_typesupport_fastrtps_c\n'}
+[16.537444] (-) TimerEvent: {}
+[16.559348] (receive_msg) StdoutLine: {'line': b'[ 70%] Built target receive_msg\n'}
+[16.637677] (-) TimerEvent: {}
+[16.660974] (receive_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.737843] (-) TimerEvent: {}
+[16.838686] (-) TimerEvent: {}
+[16.939630] (-) TimerEvent: {}
+[17.040585] (-) TimerEvent: {}
+[17.141453] (-) TimerEvent: {}
+[17.242334] (-) TimerEvent: {}
+[17.343253] (-) TimerEvent: {}
+[17.444153] (-) TimerEvent: {}
+[17.545020] (-) TimerEvent: {}
+[17.645937] (-) TimerEvent: {}
+[17.746825] (-) TimerEvent: {}
+[17.847693] (-) TimerEvent: {}
+[17.948560] (-) TimerEvent: {}
+[18.049461] (-) TimerEvent: {}
+[18.150345] (-) TimerEvent: {}
+[18.251212] (-) TimerEvent: {}
+[18.352086] (-) TimerEvent: {}
+[18.452977] (-) TimerEvent: {}
+[18.554072] (-) TimerEvent: {}
+[18.601467] (receive_msg) StdoutLine: {'line': b'[ 74%] Built target receive_msg__py\n'}
+[18.654355] (-) TimerEvent: {}
+[18.698534] (receive_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/receive_msg__rosidl_generator_py.dir/rosidl_generator_py/receive_msg/msg/_receive_s.c.o\x1b[0m\n'}
+[18.754549] (-) TimerEvent: {}
+[18.855655] (-) TimerEvent: {}
+[18.956626] (-) TimerEvent: {}
+[19.057621] (-) TimerEvent: {}
+[19.158649] (-) TimerEvent: {}
+[19.259701] (-) TimerEvent: {}
+[19.360975] (-) TimerEvent: {}
+[19.402036] (receive_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/receive_msg/libreceive_msg__rosidl_generator_py.so\x1b[0m\n'}
+[19.461133] (-) TimerEvent: {}
+[19.562186] (-) TimerEvent: {}
+[19.638668] (receive_msg) StdoutLine: {'line': b'[ 80%] Built target receive_msg__rosidl_generator_py\n'}
+[19.662411] (-) TimerEvent: {}
+[19.733453] (receive_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/receive_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/receive_msg/_receive_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.734435] (receive_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/receive_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/receive_msg/_receive_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.735147] (receive_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/receive_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/receive_msg/_receive_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.762637] (-) TimerEvent: {}
+[19.863703] (-) TimerEvent: {}
+[19.964729] (-) TimerEvent: {}
+[20.065766] (-) TimerEvent: {}
+[20.166866] (-) TimerEvent: {}
+[20.267935] (-) TimerEvent: {}
+[20.286596] (receive_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/receive_msg/receive_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[20.287602] (receive_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/receive_msg/receive_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[20.288345] (receive_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/receive_msg/receive_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[20.368204] (-) TimerEvent: {}
+[20.469383] (-) TimerEvent: {}
+[20.490446] (receive_msg) StdoutLine: {'line': b'[100%] Built target receive_msg__rosidl_typesupport_c__pyext\n'}
+[20.491469] (receive_msg) StdoutLine: {'line': b'[100%] Built target receive_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.492219] (receive_msg) StdoutLine: {'line': b'[100%] Built target receive_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[20.552869] (receive_msg) CommandEnded: {'returncode': 0}
+[20.556009] (receive_msg) JobProgress: {'identifier': 'receive_msg', 'progress': 'install'}
+[20.569579] (-) TimerEvent: {}
+[20.604400] (receive_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/motor_ws/build/receive_msg'], 'cwd': '/home/sunrise/motor_ws/build/receive_msg', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'sunrise'), ('SSH_CLIENT', '192.168.0.90 56124 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-c5f66859-3130-48ca-be07-d0ccbf15b355.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TROS_DISTRO', 'humble'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/opt/ros/humble/bin:/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-17baf841131aa23349f217ca7c570c76ee87b957/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f365c1e00d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sunrise/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/motor_ws/build/receive_msg'), ('CONDA_EXE', '/home/sunrise/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.0.90 56124 192.168.0.134 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[20.644425] (receive_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.645417] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/rosidl_interfaces/receive_msg\n'}
+[20.646131] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[20.646823] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[20.647395] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/receive.h\n'}
+[20.648056] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[20.648629] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__struct.h\n'}
+[20.649261] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__functions.c\n'}
+[20.649800] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__functions.h\n'}
+[20.650409] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.h\n'}
+[20.651009] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.651579] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/library_path.sh\n'}
+[20.652194] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/library_path.dsv\n'}
+[20.652752] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_generator_c.so\n'}
+[20.653347] (receive_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_generator_c.so" to ""\n'}
+[20.654035] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[20.654647] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[20.655139] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.655685] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[20.656160] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_fastrtps_c.h\n'}
+[20.656685] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[20.657861] (receive_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.658427] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[20.658976] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[20.659514] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.659999] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[20.660625] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_introspection_c.h\n'}
+[20.661110] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.c\n'}
+[20.661599] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_introspection_c.so\n'}
+[20.662334] (receive_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.662904] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_c.so\n'}
+[20.663531] (receive_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_c.so" to ""\n'}
+[20.664108] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[20.664666] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[20.665211] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/receive.hpp\n'}
+[20.665900] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[20.666449] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[20.667044] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__struct.hpp\n'}
+[20.667668] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.hpp\n'}
+[20.668186] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__traits.hpp\n'}
+[20.668686] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__builder.hpp\n'}
+[20.669489] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[20.670097] (-) TimerEvent: {}
+[20.670683] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[20.671378] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[20.671953] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/dds_fastrtps\n'}
+[20.672573] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.673235] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.673769] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.674408] (receive_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.674999] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg\n'}
+[20.675575] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg\n'}
+[20.676183] (receive_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail\n'}
+[20.676861] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.cpp\n'}
+[20.677443] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.678034] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[20.678618] (receive_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.679274] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_cpp.so\n'}
+[20.679863] (receive_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[20.680424] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/pythonpath.sh\n'}
+[20.681001] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/pythonpath.dsv\n'}
+[20.681542] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info\n'}
+[20.682126] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[20.682661] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[20.683189] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[20.683768] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[20.684238] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg\n'}
+[20.684697] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/_receive_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[20.685151] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.685602] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.686052] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.686496] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/libreceive_msg__rosidl_generator_py.so\n'}
+[20.686946] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/_receive_msg_s.ep.rosidl_typesupport_c.c\n'}
+[20.687389] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg\n'}
+[20.687830] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/_receive.py\n'}
+[20.688268] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/_receive_s.c\n'}
+[20.688703] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/__init__.py\n'}
+[20.689189] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/_receive_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[20.689784] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/__init__.py\n'}
+[20.770286] (-) TimerEvent: {}
+[20.870928] (receive_msg) StdoutLine: {'line': b"Listing '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg'...\n"}
+[20.871842] (-) TimerEvent: {}
+[20.872434] (receive_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/__init__.py'...\n"}
+[20.873126] (receive_msg) StdoutLine: {'line': b"Listing '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg'...\n"}
+[20.873733] (receive_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/__init__.py'...\n"}
+[20.874310] (receive_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/_receive.py'...\n"}
+[20.913980] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.915090] (receive_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[20.915889] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.917135] (receive_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[20.917932] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[20.919214] (receive_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[20.919949] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_generator_py.so\n'}
+[20.921126] (receive_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_generator_py.so" to ""\n'}
+[20.921816] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/msg/Receive.idl\n'}
+[20.922471] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/msg/Receive.msg\n'}
+[20.923132] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/package_run_dependencies/receive_msg\n'}
+[20.923780] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/parent_prefix_path/receive_msg\n'}
+[20.924368] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/ament_prefix_path.sh\n'}
+[20.924941] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/ament_prefix_path.dsv\n'}
+[20.925510] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/path.sh\n'}
+[20.926063] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/path.dsv\n'}
+[20.926613] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.bash\n'}
+[20.927161] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.sh\n'}
+[20.927707] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.zsh\n'}
+[20.928249] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.dsv\n'}
+[20.928789] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/package.dsv\n'}
+[20.929369] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/packages/receive_msg\n'}
+[20.929993] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_cExport.cmake\n'}
+[20.930618] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.931209] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[20.931796] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[20.932437] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.933026] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.933617] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cExport.cmake\n'}
+[20.934199] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.934793] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_cppExport.cmake\n'}
+[20.935387] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[20.935964] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[20.936575] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.937183] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.937805] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cppExport.cmake\n'}
+[20.938373] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.939018] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_pyExport.cmake\n'}
+[20.939675] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[20.940278] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[20.940813] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.941394] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.941938] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.942483] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.943045] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.943584] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.944121] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msgConfig.cmake\n'}
+[20.944659] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msgConfig-version.cmake\n'}
+[20.945190] (receive_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/package.xml\n'}
+[20.954614] (receive_msg) CommandEnded: {'returncode': 0}
+[20.972061] (-) TimerEvent: {}
+[21.072865] (-) TimerEvent: {}
+[21.094152] (receive_msg) JobEnded: {'identifier': 'receive_msg', 'rc': 0}
+[21.097013] (-) EventReactorShutdown: {}

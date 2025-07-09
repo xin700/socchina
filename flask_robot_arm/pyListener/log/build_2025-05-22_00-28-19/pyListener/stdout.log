@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/pyListener/pyListener.egg-info
+writing ../build/pyListener/pyListener.egg-info/PKG-INFO
+writing dependency_links to ../build/pyListener/pyListener.egg-info/dependency_links.txt
+writing entry points to ../build/pyListener/pyListener.egg-info/entry_points.txt
+writing requirements to ../build/pyListener/pyListener.egg-info/requires.txt
+writing top-level names to ../build/pyListener/pyListener.egg-info/top_level.txt
+writing manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+reading manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+writing manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/pyListener/build/pyListener/build
+creating /home/user/pyListener/build/pyListener/build/lib
+creating /home/user/pyListener/build/pyListener/build/lib/pyListener
+copying pyListener/pyListener.py -> /home/user/pyListener/build/pyListener/build/lib/pyListener
+copying pyListener/__init__.py -> /home/user/pyListener/build/pyListener/build/lib/pyListener
+running install
+running install_lib
+creating /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener
+copying /home/user/pyListener/build/pyListener/build/lib/pyListener/pyListener.py -> /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener
+copying /home/user/pyListener/build/pyListener/build/lib/pyListener/__init__.py -> /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener
+byte-compiling /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener/pyListener.py to pyListener.cpython-310.pyc
+byte-compiling /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/user/pyListener/install/pyListener/share/ament_index
+creating /home/user/pyListener/install/pyListener/share/ament_index/resource_index
+creating /home/user/pyListener/install/pyListener/share/ament_index/resource_index/packages
+copying resource/pyListener -> /home/user/pyListener/install/pyListener/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/pyListener/install/pyListener/share/pyListener
+running install_egg_info
+Copying ../build/pyListener/pyListener.egg-info to /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info
+running install_scripts
+Installing trajectory_processor script to /home/user/pyListener/install/pyListener/lib/pyListener
+writing list of installed files to '/home/user/pyListener/build/pyListener/install.log'

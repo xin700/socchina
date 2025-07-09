@@ -1,0 +1,42 @@
+[0.054s] Invoking command in '/home/sunrise/planning_ws/build/shit': CMAKE_PREFIX_PATH=/home/sunrise/planning_ws/install/myArm3:/home/sunrise/planning_ws/install/shit:/home/sunrise/planning_ws/install/pose_sender:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sunrise/planning_ws/build/shit -- -j8 -l8
+[0.251s] Invoked command in '/home/sunrise/planning_ws/build/shit' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/planning_ws/install/myArm3:/home/sunrise/planning_ws/install/shit:/home/sunrise/planning_ws/install/pose_sender:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/sunrise/planning_ws/build/shit -- -j8 -l8
+[0.302s] Invoking command in '/home/sunrise/planning_ws/build/shit': CMAKE_PREFIX_PATH=/home/sunrise/planning_ws/install/myArm3:/home/sunrise/planning_ws/install/shit:/home/sunrise/planning_ws/install/pose_sender:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/sunrise/planning_ws/build/shit
+[0.337s] -- Install configuration: ""
+[0.338s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/ament_index/resource_index/package_run_dependencies/shit
+[0.339s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/ament_index/resource_index/parent_prefix_path/shit
+[0.339s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/environment/ament_prefix_path.sh
+[0.341s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/environment/ament_prefix_path.dsv
+[0.342s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/environment/path.sh
+[0.342s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/environment/path.dsv
+[0.343s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/local_setup.bash
+[0.343s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/local_setup.sh
+[0.344s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/local_setup.zsh
+[0.344s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/local_setup.dsv
+[0.345s] -- Installing: /home/sunrise/planning_ws/install/shit/share/shit/package.dsv
+[0.345s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/ament_index/resource_index/packages/shit
+[0.346s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/cmake/shitConfig.cmake
+[0.346s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/cmake/shitConfig-version.cmake
+[0.347s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/package.xml
+[0.347s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/launch
+[0.347s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/launch/moveit_rviz.launch.py
+[0.348s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/launch/setup_assistant.launch.py
+[0.349s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/launch/custom.launch.py
+[0.350s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/launch/rsp.launch.py
+[0.353s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/launch/static_virtual_joint_tfs.launch.py
+[0.354s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/launch/spawn_controllers.launch.py
+[0.355s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/launch/demo.launch.py
+[0.356s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/launch/warehouse_db.launch.py
+[0.357s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/launch/move_group.launch.py
+[0.358s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/config
+[0.359s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/config/ros2_controllers.yaml
+[0.360s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/config/myArm3.urdf.xacro
+[0.361s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/config/myArm3.srdf
+[0.362s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/config/initial_positions.yaml
+[0.363s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/config/joint_limits.yaml
+[0.365s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/config/myArm3.ros2_control.xacro
+[0.367s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/config/moveit_controllers.yaml
+[0.368s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/config/kinematics.yaml
+[0.368s] -- Installing: /home/sunrise/planning_ws/install/shit/share/shit/config/pilz_cartesian_limits.yaml
+[0.369s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/config/moveit.rviz
+[0.370s] -- Up-to-date: /home/sunrise/planning_ws/install/shit/share/shit/.setup_assistant
+[0.371s] Invoked command in '/home/sunrise/planning_ws/build/shit' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/planning_ws/install/myArm3:/home/sunrise/planning_ws/install/shit:/home/sunrise/planning_ws/install/pose_sender:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/sunrise/planning_ws/build/shit

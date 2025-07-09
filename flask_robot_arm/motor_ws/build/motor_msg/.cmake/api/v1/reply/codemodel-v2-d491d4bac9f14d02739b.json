@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cf9730d3b30d9dcb362b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "motor_msg__py",
+					"jsonFile" : "directory-motor_msg__py-1251b755cc63fcfb8af8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sunrise/motor_ws/build/motor_msg/motor_msg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "motor_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_motor_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_motor_msg_egg-e357717bcbb85002231c.json",
+					"name" : "ament_cmake_python_build_motor_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_motor_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_motor_msg-1a31c5fe4c5c760dc1c0.json",
+					"name" : "ament_cmake_python_copy_motor_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg-03db69c692f35d50c34c.json",
+					"name" : "motor_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__cpp-ff1259ecb3144632565a.json",
+					"name" : "motor_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "motor_msg__py::@b3ff0a08583567ce2567",
+					"jsonFile" : "target-motor_msg__py-2100bf903d11b0ef67d6.json",
+					"name" : "motor_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__rosidl_generator_c-97625e6e72c1e797bf6f.json",
+					"name" : "motor_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__rosidl_generator_py-68239dd55b1e471868b8.json",
+					"name" : "motor_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__rosidl_typesupport_c-9e4362af0802799c0e97.json",
+					"name" : "motor_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__rosidl_typesupport_c__pyext-0b0b932e19ff5ff77bd8.json",
+					"name" : "motor_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__rosidl_typesupport_cpp-cb58a6dbea100d4262f4.json",
+					"name" : "motor_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__rosidl_typesupport_fastrtps_c-5a6234d34bf99f1290f1.json",
+					"name" : "motor_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__rosidl_typesupport_fastrtps_c__pyext-d59bfd5dda55477f4478.json",
+					"name" : "motor_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__rosidl_typesupport_fastrtps_cpp-9ecfc3746cba316ff34e.json",
+					"name" : "motor_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__rosidl_typesupport_introspection_c-d896a3f1ef8acefbf542.json",
+					"name" : "motor_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__rosidl_typesupport_introspection_c__pyext-91f8f6bda6650c214c1c.json",
+					"name" : "motor_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg__rosidl_typesupport_introspection_cpp-dd4281728c2d170f99ee.json",
+					"name" : "motor_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_msg_uninstall-0e19ac666d90d25163d6.json",
+					"name" : "motor_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ea771678d5d9f71fd69a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sunrise/motor_ws/build/motor_msg",
+		"source" : "/home/sunrise/motor_ws/src/motor_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

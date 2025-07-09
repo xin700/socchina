@@ -1,0 +1,15 @@
+intelligent robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+intelligent robot\event_groups.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdlib.h
+intelligent robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+intelligent robot\event_groups.o: D:\STM32\ARM\ARMCC\Bin\..\include\stddef.h
+intelligent robot\event_groups.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdint.h
+intelligent robot\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+intelligent robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+intelligent robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+intelligent robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+intelligent robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+intelligent robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+intelligent robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+intelligent robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+intelligent robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+intelligent robot\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

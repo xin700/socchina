@@ -1,0 +1,158 @@
+[0.063s] Invoking command in '/home/sunrise/motor_ws/build/receive_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/motor_control:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/motor_ws/build/receive_msg -- -j8 -l8
+[0.282s] [  3%] Built target receive_msg__cpp
+[0.286s] [ 12%] Built target receive_msg__rosidl_generator_c
+[0.386s] [ 12%] Built target ament_cmake_python_copy_receive_msg
+[0.475s] [ 22%] Built target receive_msg__rosidl_typesupport_introspection_c
+[0.476s] [ 32%] Built target receive_msg__rosidl_typesupport_cpp
+[0.519s] [ 41%] Built target receive_msg__rosidl_typesupport_fastrtps_cpp
+[0.520s] [ 51%] Built target receive_msg__rosidl_typesupport_c
+[0.531s] [ 61%] Built target receive_msg__rosidl_typesupport_fastrtps_c
+[0.560s] [ 70%] Built target receive_msg__rosidl_typesupport_introspection_cpp
+[0.658s] [ 70%] Built target receive_msg
+[0.757s] [ 74%] Built target receive_msg__py
+[0.898s] [ 80%] Built target receive_msg__rosidl_generator_py
+[1.008s] [ 93%] Built target receive_msg__rosidl_typesupport_c__pyext
+[1.008s] [ 93%] Built target receive_msg__rosidl_typesupport_fastrtps_c__pyext
+[1.019s] [100%] Built target receive_msg__rosidl_typesupport_introspection_c__pyext
+[1.980s] running egg_info
+[1.985s] writing receive_msg.egg-info/PKG-INFO
+[1.986s] writing dependency_links to receive_msg.egg-info/dependency_links.txt
+[1.987s] writing top-level names to receive_msg.egg-info/top_level.txt
+[2.000s] reading manifest file 'receive_msg.egg-info/SOURCES.txt'
+[2.004s] writing manifest file 'receive_msg.egg-info/SOURCES.txt'
+[2.221s] [100%] Built target ament_cmake_python_build_receive_msg_egg
+[2.273s] Invoked command in '/home/sunrise/motor_ws/build/receive_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/motor_control:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/motor_ws/build/receive_msg -- -j8 -l8
+[2.318s] Invoking command in '/home/sunrise/motor_ws/build/receive_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/motor_control:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/motor_ws/build/receive_msg
+[2.356s] -- Install configuration: ""
+[2.358s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/rosidl_interfaces/receive_msg
+[2.360s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg
+[2.361s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg
+[2.362s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/receive.h
+[2.363s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail
+[2.364s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__struct.h
+[2.365s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__functions.c
+[2.366s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__functions.h
+[2.366s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.h
+[2.367s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_generator_c__visibility_control.h
+[2.369s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/library_path.sh
+[2.370s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/library_path.dsv
+[2.372s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_generator_c.so
+[2.376s] -- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_generator_c.so" to ""
+[2.379s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg
+[2.380s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg
+[2.383s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.385s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail
+[2.386s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_fastrtps_c.h
+[2.388s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_fastrtps_c.so
+[2.392s] -- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[2.393s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg
+[2.394s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg
+[2.395s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.397s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail
+[2.398s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_introspection_c.h
+[2.399s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.c
+[2.402s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_introspection_c.so
+[2.406s] -- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_introspection_c.so" to ""
+[2.408s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_c.so
+[2.411s] -- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_c.so" to ""
+[2.411s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg
+[2.412s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg
+[2.413s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/receive.hpp
+[2.416s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.420s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail
+[2.421s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__struct.hpp
+[2.423s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.hpp
+[2.425s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__traits.hpp
+[2.426s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__builder.hpp
+[2.428s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg
+[2.429s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg
+[2.429s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail
+[2.430s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/dds_fastrtps
+[2.431s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_fastrtps_cpp.hpp
+[2.433s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.436s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_fastrtps_cpp.so
+[2.438s] -- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.439s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg
+[2.440s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg
+[2.440s] -- Up-to-date: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail
+[2.442s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__type_support.cpp
+[2.443s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/include/receive_msg/receive_msg/msg/detail/receive__rosidl_typesupport_introspection_cpp.hpp
+[2.446s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_introspection_cpp.so
+[2.448s] -- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[2.449s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_cpp.so
+[2.450s] -- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_typesupport_cpp.so" to ""
+[2.451s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/pythonpath.sh
+[2.453s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/pythonpath.dsv
+[2.455s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info
+[2.456s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.456s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/top_level.txt
+[2.457s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.458s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[2.459s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg
+[2.460s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/_receive_msg_s.ep.rosidl_typesupport_introspection_c.c
+[2.461s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.463s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.464s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.466s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/libreceive_msg__rosidl_generator_py.so
+[2.467s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/_receive_msg_s.ep.rosidl_typesupport_c.c
+[2.469s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg
+[2.470s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/_receive.py
+[2.472s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/_receive_s.c
+[2.473s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/__init__.py
+[2.475s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/_receive_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.476s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/__init__.py
+[2.649s] Listing '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg'...
+[2.650s] Compiling '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/__init__.py'...
+[2.651s] Listing '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg'...
+[2.651s] Compiling '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/__init__.py'...
+[2.652s] Compiling '/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/msg/_receive.py'...
+[2.699s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.700s] -- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.701s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.703s] -- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.704s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.705s] -- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/local/lib/python3.10/dist-packages/receive_msg/receive_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[2.706s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_generator_py.so
+[2.707s] -- Set runtime path of "/home/sunrise/motor_ws/install/receive_msg/lib/libreceive_msg__rosidl_generator_py.so" to ""
+[2.708s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/msg/Receive.idl
+[2.709s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/msg/Receive.msg
+[2.711s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/package_run_dependencies/receive_msg
+[2.713s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/parent_prefix_path/receive_msg
+[2.714s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/ament_prefix_path.sh
+[2.716s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/ament_prefix_path.dsv
+[2.718s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/path.sh
+[2.719s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/environment/path.dsv
+[2.720s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.bash
+[2.722s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.sh
+[2.724s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.zsh
+[2.727s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/local_setup.dsv
+[2.728s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/package.dsv
+[2.730s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/ament_index/resource_index/packages/receive_msg
+[2.732s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_cExport.cmake
+[2.733s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_cExport-noconfig.cmake
+[2.735s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[2.737s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.739s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cExport.cmake
+[2.741s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.743s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cExport.cmake
+[2.744s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cExport-noconfig.cmake
+[2.747s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_cppExport.cmake
+[2.748s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.749s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.750s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cppExport.cmake
+[2.752s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.753s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cppExport.cmake
+[2.755s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.756s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_pyExport.cmake
+[2.759s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/export_receive_msg__rosidl_generator_pyExport-noconfig.cmake
+[2.763s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/rosidl_cmake-extras.cmake
+[2.766s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.767s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.770s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[2.772s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/ament_cmake_export_targets-extras.cmake
+[2.775s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.777s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.779s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msgConfig.cmake
+[2.781s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/cmake/receive_msgConfig-version.cmake
+[2.784s] -- Installing: /home/sunrise/motor_ws/install/receive_msg/share/receive_msg/package.xml
+[2.787s] Invoked command in '/home/sunrise/motor_ws/build/receive_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/motor_ws/install/motor_state:/home/sunrise/motor_ws/install/motor_control:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/motor_ws/build/receive_msg

@@ -1,0 +1,26 @@
+running egg_info
+writing ../build/pyListener/pyListener.egg-info/PKG-INFO
+writing dependency_links to ../build/pyListener/pyListener.egg-info/dependency_links.txt
+writing entry points to ../build/pyListener/pyListener.egg-info/entry_points.txt
+writing requirements to ../build/pyListener/pyListener.egg-info/requires.txt
+writing top-level names to ../build/pyListener/pyListener.egg-info/top_level.txt
+reading manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+writing manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pyListener/pyListener.py -> /home/sunrise/pyListener/build/pyListener/build/lib/pyListener
+copying pyListener/ZDT.py -> /home/sunrise/pyListener/build/pyListener/build/lib/pyListener
+running install
+running install_lib
+copying /home/sunrise/pyListener/build/pyListener/build/lib/pyListener/pyListener.py -> /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener
+copying /home/sunrise/pyListener/build/pyListener/build/lib/pyListener/ZDT.py -> /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener
+byte-compiling /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener/pyListener.py to pyListener.cpython-310.pyc
+byte-compiling /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener/ZDT.py to ZDT.cpython-310.pyc
+running install_data
+copying package.xml -> /home/sunrise/pyListener/install/pyListener/share/pyListener
+running install_egg_info
+removing '/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/pyListener/pyListener.egg-info to /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pyListener script to /home/sunrise/pyListener/install/pyListener/lib/pyListener
+writing list of installed files to '/home/sunrise/pyListener/build/pyListener/install.log'

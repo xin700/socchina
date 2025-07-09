@@ -1,0 +1,24 @@
+[0.379s] Invoking command in '/home/user/pyListener/pyListener': PYTHONPATH=/home/user/pyListener/build/pyListener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/pyListener/install/pyListener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pyListener build --build-base /home/user/pyListener/build/pyListener/build install --record /home/user/pyListener/build/pyListener/install.log --single-version-externally-managed install_data
+[0.525s] running egg_info
+[0.525s] writing ../build/pyListener/pyListener.egg-info/PKG-INFO
+[0.526s] writing dependency_links to ../build/pyListener/pyListener.egg-info/dependency_links.txt
+[0.526s] writing entry points to ../build/pyListener/pyListener.egg-info/entry_points.txt
+[0.526s] writing requirements to ../build/pyListener/pyListener.egg-info/requires.txt
+[0.526s] writing top-level names to ../build/pyListener/pyListener.egg-info/top_level.txt
+[0.527s] reading manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+[0.527s] writing manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+[0.528s] running build
+[0.528s] running build_py
+[0.528s] copying pyListener/pyListener.py -> /home/user/pyListener/build/pyListener/build/lib/pyListener
+[0.528s] running install
+[0.528s] running install_lib
+[0.528s] copying /home/user/pyListener/build/pyListener/build/lib/pyListener/pyListener.py -> /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener
+[0.529s] byte-compiling /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener/pyListener.py to pyListener.cpython-310.pyc
+[0.530s] running install_data
+[0.530s] running install_egg_info
+[0.531s] removing '/home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info' (and everything under it)
+[0.531s] Copying ../build/pyListener/pyListener.egg-info to /home/user/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info
+[0.532s] running install_scripts
+[0.546s] Installing pyListener script to /home/user/pyListener/install/pyListener/lib/pyListener
+[0.546s] writing list of installed files to '/home/user/pyListener/build/pyListener/install.log'
+[0.564s] Invoked command in '/home/user/pyListener/pyListener' returned '0': PYTHONPATH=/home/user/pyListener/build/pyListener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/pyListener/install/pyListener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pyListener build --build-base /home/user/pyListener/build/pyListener/build install --record /home/user/pyListener/build/pyListener/install.log --single-version-externally-managed install_data

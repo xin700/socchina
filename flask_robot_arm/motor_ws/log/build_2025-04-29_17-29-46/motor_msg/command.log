@@ -1,0 +1,6 @@
+Invoking command in '/home/sunrise/motor_ws/build/motor_msg': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/sunrise/motor_ws/src/motor_msg -DCMAKE_INSTALL_PREFIX=/home/sunrise/motor_ws/install/motor_msg
+Invoked command in '/home/sunrise/motor_ws/build/motor_msg' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/sunrise/motor_ws/src/motor_msg -DCMAKE_INSTALL_PREFIX=/home/sunrise/motor_ws/install/motor_msg
+Invoking command in '/home/sunrise/motor_ws/build/motor_msg': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/sunrise/motor_ws/build/motor_msg -- -j8 -l8
+Invoked command in '/home/sunrise/motor_ws/build/motor_msg' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/sunrise/motor_ws/build/motor_msg -- -j8 -l8
+Invoking command in '/home/sunrise/motor_ws/build/motor_msg': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/sunrise/motor_ws/build/motor_msg
+Invoked command in '/home/sunrise/motor_ws/build/motor_msg' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/sunrise/motor_ws/build/motor_msg

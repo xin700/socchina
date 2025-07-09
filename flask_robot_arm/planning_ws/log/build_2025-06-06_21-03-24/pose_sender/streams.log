@@ -1,0 +1,60 @@
+[0.039s] Invoking command in '/home/sunrise/planning_ws/build/pose_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/planning_ws/myArm_robot_ros2/src/pose_sender -DCMAKE_INSTALL_PREFIX=/home/sunrise/planning_ws/install/pose_sender
+[0.663s] -- The C compiler identification is GNU 11.2.0
+[1.218s] -- The CXX compiler identification is GNU 11.2.0
+[1.263s] -- Detecting C compiler ABI info
+[1.654s] -- Detecting C compiler ABI info - done
+[1.711s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.713s] -- Detecting C compile features
+[1.716s] -- Detecting C compile features - done
+[1.732s] -- Detecting CXX compiler ABI info
+[2.144s] -- Detecting CXX compiler ABI info - done
+[2.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.208s] -- Detecting CXX compile features
+[2.210s] -- Detecting CXX compile features - done
+[2.228s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.119s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.654s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[4.585s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[4.835s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.865s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.917s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.998s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.110s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.425s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[6.697s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.946s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.962s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.421s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.539s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.720s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.769s] -- Found Threads: TRUE  
+[8.186s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.199s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[8.351s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[8.787s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[9.000s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.833s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[10.037s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[10.177s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[10.378s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.854s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.855s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sunrise/planning_ws/myArm_robot_ros2/src/pose_sender/include>
+[10.856s] -- Configured cppcheck exclude dirs and/or files: 
+[10.859s] -- Added test 'lint_cmake' to check CMake code style
+[10.865s] -- Added test 'uncrustify' to check C / C++ code style
+[10.865s] -- Configured uncrustify additional arguments: 
+[10.868s] -- Added test 'xmllint' to check XML markup files
+[10.874s] -- Configuring done
+[11.063s] -- Generating done
+[11.108s] -- Build files have been written to: /home/sunrise/planning_ws/build/pose_sender
+[11.205s] Invoked command in '/home/sunrise/planning_ws/build/pose_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/planning_ws/myArm_robot_ros2/src/pose_sender -DCMAKE_INSTALL_PREFIX=/home/sunrise/planning_ws/install/pose_sender
+[11.219s] Invoking command in '/home/sunrise/planning_ws/build/pose_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/planning_ws/build/pose_sender -- -j8 -l8
+[11.472s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_sender.dir/src/pose_sender.cpp.o[0m
+[13.768s] [01m[K/home/sunrise/planning_ws/myArm_robot_ros2/src/pose_sender/src/pose_sender.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kmoveit/move_group_interface/move_group_interface.hpp: No such file or directory
+[13.768s]     4 | #include [01;31m[K<moveit/move_group_interface/move_group_interface.hpp>[m[K
+[13.769s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.769s] compilation terminated.
+[13.784s] gmake[2]: *** [CMakeFiles/pose_sender.dir/build.make:76: CMakeFiles/pose_sender.dir/src/pose_sender.cpp.o] Error 1
+[13.787s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pose_sender.dir/all] Error 2
+[13.789s] gmake: *** [Makefile:146: all] Error 2
+[13.814s] Invoked command in '/home/sunrise/planning_ws/build/pose_sender' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/planning_ws/build/pose_sender -- -j8 -l8

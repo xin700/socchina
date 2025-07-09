@@ -1,0 +1,128 @@
+[0.653s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.653s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb0d2d750>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb0e33760>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb0e33760>>, mixin_verb=('build',))
+[1.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.725s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/pyListener'
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.728s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.804s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.805s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.805s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.806s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.806s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extensions ['ignore', 'ignore_ament_install']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extension 'ignore'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extension 'ignore_ament_install'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extensions ['colcon_pkg']
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extension 'colcon_pkg'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extensions ['colcon_meta']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extension 'colcon_meta'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extensions ['ros']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extension 'ros'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extensions ['cmake', 'python']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extension 'cmake'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extension 'python'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extensions ['python_setup_py']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(noneRosSolution) by extension 'python_setup_py'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(pyListener) by extensions ['ignore', 'ignore_ament_install']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(pyListener) by extension 'ignore'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(pyListener) by extension 'ignore_ament_install'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(pyListener) by extensions ['colcon_pkg']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(pyListener) by extension 'colcon_pkg'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(pyListener) by extensions ['colcon_meta']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(pyListener) by extension 'colcon_meta'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(pyListener) by extensions ['ros']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(pyListener) by extension 'ros'
+[1.830s] DEBUG:colcon.colcon_core.package_identification:Package 'pyListener' with type 'ros.ament_python' and name 'pyListener'
+[1.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.951s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sunrise/pyListener/install
+[1.959s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/humble
+[1.978s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.306s] Level 5:colcon.colcon_core.verb:set package 'pyListener' build argument 'cmake_args' from command line to 'None'
+[2.307s] Level 5:colcon.colcon_core.verb:set package 'pyListener' build argument 'cmake_target' from command line to 'None'
+[2.307s] Level 5:colcon.colcon_core.verb:set package 'pyListener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.307s] Level 5:colcon.colcon_core.verb:set package 'pyListener' build argument 'cmake_clean_cache' from command line to 'False'
+[2.307s] Level 5:colcon.colcon_core.verb:set package 'pyListener' build argument 'cmake_clean_first' from command line to 'False'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'pyListener' build argument 'cmake_force_configure' from command line to 'False'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'pyListener' build argument 'ament_cmake_args' from command line to 'None'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'pyListener' build argument 'catkin_cmake_args' from command line to 'None'
+[2.308s] Level 5:colcon.colcon_core.verb:set package 'pyListener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.308s] DEBUG:colcon.colcon_core.verb:Building package 'pyListener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/pyListener/build/pyListener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/pyListener/install/pyListener', 'merge_install': False, 'path': '/home/sunrise/pyListener/pyListener', 'symlink_install': False, 'test_result_base': None}
+[2.309s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.315s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sunrise/pyListener/pyListener' with build type 'ament_python'
+[2.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('pyListener', 'ament_prefix_path')
+[2.326s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/pyListener/install/pyListener/share/pyListener/hook/ament_prefix_path.ps1'
+[2.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/pyListener/install/pyListener/share/pyListener/hook/ament_prefix_path.dsv'
+[2.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/pyListener/install/pyListener/share/pyListener/hook/ament_prefix_path.sh'
+[2.340s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.340s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.000s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sunrise/pyListener/pyListener'
+[4.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.002s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/pyListener/pyListener': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/sunrise/pyListener/build/pyListener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pyListener build --build-base /home/sunrise/pyListener/build/pyListener/build install --record /home/sunrise/pyListener/build/pyListener/install.log --single-version-externally-managed install_data
+[8.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/pyListener/pyListener' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/sunrise/pyListener/build/pyListener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pyListener build --build-base /home/sunrise/pyListener/build/pyListener/build install --record /home/sunrise/pyListener/build/pyListener/install.log --single-version-externally-managed install_data
+[8.255s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/pyListener/install/pyListener' for CMake module files
+[8.261s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/pyListener/install/pyListener' for CMake config files
+[8.269s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/pyListener/install/pyListener/lib'
+[8.270s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/pyListener/install/pyListener/bin'
+[8.271s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/pyListener/install/pyListener/lib/pkgconfig/pyListener.pc'
+[8.274s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages'
+[8.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('pyListener', 'pythonpath')
+[8.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/pyListener/install/pyListener/share/pyListener/hook/pythonpath.ps1'
+[8.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/pyListener/install/pyListener/share/pyListener/hook/pythonpath.dsv'
+[8.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/pyListener/install/pyListener/share/pyListener/hook/pythonpath.sh'
+[8.292s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/pyListener/install/pyListener/bin'
+[8.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pyListener)
+[8.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/pyListener/install/pyListener/share/pyListener/package.ps1'
+[8.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/pyListener/install/pyListener/share/pyListener/package.dsv'
+[8.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/pyListener/install/pyListener/share/pyListener/package.sh'
+[8.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/pyListener/install/pyListener/share/pyListener/package.bash'
+[8.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/pyListener/install/pyListener/share/pyListener/package.zsh'
+[8.325s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/pyListener/install/pyListener/share/colcon-core/packages/pyListener)
+[8.327s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.328s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.329s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.330s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.354s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.355s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.355s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.378s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[33.379s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.381s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/pyListener/install/local_setup.ps1'
+[33.387s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/pyListener/install/_local_setup_util_ps1.py'
+[33.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/pyListener/install/setup.ps1'
+[33.405s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/pyListener/install/local_setup.sh'
+[33.409s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/pyListener/install/_local_setup_util_sh.py'
+[33.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/pyListener/install/setup.sh'
+[33.419s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/pyListener/install/local_setup.bash'
+[33.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/pyListener/install/setup.bash'
+[33.430s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/pyListener/install/local_setup.zsh'
+[33.433s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/pyListener/install/setup.zsh'

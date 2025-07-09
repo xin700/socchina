@@ -1,0 +1,6 @@
+Invoking command in '/home/sunrise/planning_ws/build/myArm3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/planning_ws/myArm_robot_ros2/src/myArm3 -DCMAKE_INSTALL_PREFIX=/home/sunrise/planning_ws/install/myArm3
+Invoked command in '/home/sunrise/planning_ws/build/myArm3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/planning_ws/myArm_robot_ros2/src/myArm3 -DCMAKE_INSTALL_PREFIX=/home/sunrise/planning_ws/install/myArm3
+Invoking command in '/home/sunrise/planning_ws/build/myArm3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/planning_ws/build/myArm3 -- -j8 -l8
+Invoked command in '/home/sunrise/planning_ws/build/myArm3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/planning_ws/build/myArm3 -- -j8 -l8
+Invoking command in '/home/sunrise/planning_ws/build/myArm3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/planning_ws/build/myArm3
+Invoked command in '/home/sunrise/planning_ws/build/myArm3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/planning_ws/build/myArm3

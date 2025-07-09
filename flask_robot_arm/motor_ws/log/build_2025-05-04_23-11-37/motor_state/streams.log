@@ -1,0 +1,24 @@
+[4.575s] Invoking command in '/home/sunrise/motor_ws/src/motor_state': LD_LIBRARY_PATH=/home/sunrise/motor_ws/install/receive_msg/lib:/home/sunrise/motor_ws/install/motor_msg/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/motor_ws/build/motor_state/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_state build --build-base /home/sunrise/motor_ws/build/motor_state/build install --record /home/sunrise/motor_ws/build/motor_state/install.log --single-version-externally-managed install_data
+[6.548s] running egg_info
+[6.555s] writing ../../build/motor_state/motor_state.egg-info/PKG-INFO
+[6.556s] writing dependency_links to ../../build/motor_state/motor_state.egg-info/dependency_links.txt
+[6.558s] writing entry points to ../../build/motor_state/motor_state.egg-info/entry_points.txt
+[6.559s] writing requirements to ../../build/motor_state/motor_state.egg-info/requires.txt
+[6.560s] writing top-level names to ../../build/motor_state/motor_state.egg-info/top_level.txt
+[6.570s] reading manifest file '../../build/motor_state/motor_state.egg-info/SOURCES.txt'
+[6.576s] writing manifest file '../../build/motor_state/motor_state.egg-info/SOURCES.txt'
+[6.578s] running build
+[6.579s] running build_py
+[6.580s] copying motor_state/state_node.py -> /home/sunrise/motor_ws/build/motor_state/build/lib/motor_state
+[6.581s] running install
+[6.583s] running install_lib
+[6.588s] copying /home/sunrise/motor_ws/build/motor_state/build/lib/motor_state/state_node.py -> /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state
+[6.592s] byte-compiling /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state/state_node.py to state_node.cpython-310.pyc
+[6.599s] running install_data
+[6.600s] running install_egg_info
+[6.611s] removing '/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state-0.0.0-py3.10.egg-info' (and everything under it)
+[6.612s] Copying ../../build/motor_state/motor_state.egg-info to /home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages/motor_state-0.0.0-py3.10.egg-info
+[6.618s] running install_scripts
+[6.752s] Installing state_node script to /home/sunrise/motor_ws/install/motor_state/lib/motor_state
+[6.754s] writing list of installed files to '/home/sunrise/motor_ws/build/motor_state/install.log'
+[6.998s] Invoked command in '/home/sunrise/motor_ws/src/motor_state' returned '0': LD_LIBRARY_PATH=/home/sunrise/motor_ws/install/receive_msg/lib:/home/sunrise/motor_ws/install/motor_msg/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/home/sunrise/motor_ws/build/motor_state/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/motor_ws/install/motor_state/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_state build --build-base /home/sunrise/motor_ws/build/motor_state/build install --record /home/sunrise/motor_ws/build/motor_state/install.log --single-version-externally-managed install_data

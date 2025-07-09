@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.001038] (pyListener) JobQueued: {'identifier': 'pyListener', 'dependencies': OrderedDict()}
+[0.002816] (pyListener) JobStarted: {'identifier': 'pyListener'}
+[0.098452] (-) TimerEvent: {}
+[0.199328] (-) TimerEvent: {}
+[0.300259] (-) TimerEvent: {}
+[0.401187] (-) TimerEvent: {}
+[0.502066] (-) TimerEvent: {}
+[0.602905] (-) TimerEvent: {}
+[0.703763] (-) TimerEvent: {}
+[0.804676] (-) TimerEvent: {}
+[0.905533] (-) TimerEvent: {}
+[1.006400] (-) TimerEvent: {}
+[1.107250] (-) TimerEvent: {}
+[1.208114] (-) TimerEvent: {}
+[1.309025] (-) TimerEvent: {}
+[1.410002] (-) TimerEvent: {}
+[1.510973] (-) TimerEvent: {}
+[1.611826] (-) TimerEvent: {}
+[1.712621] (-) TimerEvent: {}
+[1.813443] (-) TimerEvent: {}
+[1.914316] (-) TimerEvent: {}
+[2.015297] (-) TimerEvent: {}
+[2.116169] (-) TimerEvent: {}
+[2.217033] (-) TimerEvent: {}
+[2.317874] (-) TimerEvent: {}
+[2.418675] (-) TimerEvent: {}
+[2.519489] (-) TimerEvent: {}
+[2.620291] (-) TimerEvent: {}
+[2.721122] (-) TimerEvent: {}
+[2.821895] (-) TimerEvent: {}
+[2.922696] (-) TimerEvent: {}
+[3.023487] (-) TimerEvent: {}
+[3.124266] (-) TimerEvent: {}
+[3.225044] (-) TimerEvent: {}
+[3.325826] (-) TimerEvent: {}
+[3.426664] (-) TimerEvent: {}
+[3.527417] (-) TimerEvent: {}
+[3.628245] (-) TimerEvent: {}
+[3.729162] (-) TimerEvent: {}
+[3.830144] (-) TimerEvent: {}
+[3.872237] (pyListener) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/pyListener', 'build', '--build-base', '/home/sunrise/pyListener/build/pyListener/build', 'install', '--record', '/home/sunrise/pyListener/build/pyListener/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/pyListener/pyListener', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'sunrise', 'SSH_CLIENT': '192.168.0.90 52220 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/sunrise', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-bb6ebb0d-a22e-459a-83b0-115047ba70c3.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', '_CE_CONDA': '', 'PATH': '/home/sunrise/Documents/llama.cpp/build/bin:/home/sunrise/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/home/sunrise/.local/bin:/home/sunrise/anaconda3/condabin:/home/sunrise/Documents/llama.cpp/build/bin:/usr/hobot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sunrise/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/sunrise/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5923367cb0a06e98.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-f365c1e00d.sock', 'TERM_PROGRAM': 'vscode', 'CONDA_PYTHON_EXE': '/home/sunrise/anaconda3/bin/python', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/pyListener/build/pyListener', 'CONDA_EXE': '/home/sunrise/anaconda3/bin/conda', 'SSH_CONNECTION': '192.168.0.90 52220 192.168.0.134 22', 'COLCON': '1', 'PYTHONPATH': '/home/sunrise/pyListener/build/pyListener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages:'}, 'shell': False}
+[3.930312] (-) TimerEvent: {}
+[4.031338] (-) TimerEvent: {}
+[4.132128] (-) TimerEvent: {}
+[4.232928] (-) TimerEvent: {}
+[4.333769] (-) TimerEvent: {}
+[4.434641] (-) TimerEvent: {}
+[4.535449] (-) TimerEvent: {}
+[4.636288] (-) TimerEvent: {}
+[4.737070] (-) TimerEvent: {}
+[4.837905] (-) TimerEvent: {}
+[4.938830] (-) TimerEvent: {}
+[5.039699] (-) TimerEvent: {}
+[5.079223] (pyListener) StdoutLine: {'line': b'running egg_info\n'}
+[5.090561] (pyListener) StdoutLine: {'line': b'writing ../build/pyListener/pyListener.egg-info/PKG-INFO\n'}
+[5.091776] (pyListener) StdoutLine: {'line': b'writing dependency_links to ../build/pyListener/pyListener.egg-info/dependency_links.txt\n'}
+[5.092805] (pyListener) StdoutLine: {'line': b'writing entry points to ../build/pyListener/pyListener.egg-info/entry_points.txt\n'}
+[5.093631] (pyListener) StdoutLine: {'line': b'writing requirements to ../build/pyListener/pyListener.egg-info/requires.txt\n'}
+[5.094443] (pyListener) StdoutLine: {'line': b'writing top-level names to ../build/pyListener/pyListener.egg-info/top_level.txt\n'}
+[5.103387] (pyListener) StdoutLine: {'line': b"reading manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'\n"}
+[5.108493] (pyListener) StdoutLine: {'line': b"writing manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'\n"}
+[5.109326] (pyListener) StdoutLine: {'line': b'running build\n'}
+[5.109837] (pyListener) StdoutLine: {'line': b'running build_py\n'}
+[5.110427] (pyListener) StdoutLine: {'line': b'copying pyListener/pyListener.py -> /home/sunrise/pyListener/build/pyListener/build/lib/pyListener\n'}
+[5.111475] (pyListener) StdoutLine: {'line': b'running install\n'}
+[5.113241] (pyListener) StdoutLine: {'line': b'running install_lib\n'}
+[5.116371] (pyListener) StdoutLine: {'line': b'copying /home/sunrise/pyListener/build/pyListener/build/lib/pyListener/pyListener.py -> /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener\n'}
+[5.119163] (pyListener) StdoutLine: {'line': b'byte-compiling /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener/pyListener.py to pyListener.cpython-310.pyc\n'}
+[5.124925] (pyListener) StdoutLine: {'line': b'running install_data\n'}
+[5.125685] (pyListener) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.134227] (pyListener) StdoutLine: {'line': b"removing '/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.135769] (pyListener) StdoutLine: {'line': b'Copying ../build/pyListener/pyListener.egg-info to /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info\n'}
+[5.139796] (-) TimerEvent: {}
+[5.140426] (pyListener) StdoutLine: {'line': b'running install_scripts\n'}
+[5.240003] (-) TimerEvent: {}
+[5.253958] (pyListener) StdoutLine: {'line': b'Installing pyListener script to /home/sunrise/pyListener/install/pyListener/lib/pyListener\n'}
+[5.255761] (pyListener) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/pyListener/build/pyListener/install.log'\n"}
+[5.340230] (-) TimerEvent: {}
+[5.441208] (-) TimerEvent: {}
+[5.452783] (pyListener) CommandEnded: {'returncode': 0}
+[5.535425] (pyListener) JobEnded: {'identifier': 'pyListener', 'rc': 0}
+[5.538971] (-) EventReactorShutdown: {}

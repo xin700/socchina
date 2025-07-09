@@ -1,0 +1,8 @@
+setup.py
+receive_msg/__init__.py
+receive_msg.egg-info/PKG-INFO
+receive_msg.egg-info/SOURCES.txt
+receive_msg.egg-info/dependency_links.txt
+receive_msg.egg-info/top_level.txt
+receive_msg/msg/__init__.py
+receive_msg/msg/_receive.py

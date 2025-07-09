@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/httpController/httpController.egg-info/PKG-INFO
+writing dependency_links to ../../build/httpController/httpController.egg-info/dependency_links.txt
+writing entry points to ../../build/httpController/httpController.egg-info/entry_points.txt
+writing requirements to ../../build/httpController/httpController.egg-info/requires.txt
+writing top-level names to ../../build/httpController/httpController.egg-info/top_level.txt
+reading manifest file '../../build/httpController/httpController.egg-info/SOURCES.txt'
+writing manifest file '../../build/httpController/httpController.egg-info/SOURCES.txt'
+running build
+running build_py
+copying httpController/httpController.py -> /home/sunrise/flask_robot_arm/build/httpController/build/lib/httpController
+running install
+running install_lib
+copying /home/sunrise/flask_robot_arm/build/httpController/build/lib/httpController/httpController.py -> /home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController
+byte-compiling /home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController/httpController.py to httpController.cpython-310.pyc
+Sorry: IndentationError: unexpected indent (httpController.py, line 550)
+running install_data
+running install_egg_info
+removing '/home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/httpController/httpController.egg-info to /home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages/httpController-0.0.0-py3.10.egg-info
+running install_scripts
+Installing httpController script to /home/sunrise/flask_robot_arm/install/httpController/lib/httpController
+writing list of installed files to '/home/sunrise/flask_robot_arm/build/httpController/install.log'

@@ -1,0 +1,14 @@
+intelligent robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+intelligent robot\stream_buffer.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdint.h
+intelligent robot\stream_buffer.o: D:\STM32\ARM\ARMCC\Bin\..\include\string.h
+intelligent robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+intelligent robot\stream_buffer.o: D:\STM32\ARM\ARMCC\Bin\..\include\stddef.h
+intelligent robot\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
+intelligent robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+intelligent robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+intelligent robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+intelligent robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+intelligent robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+intelligent robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+intelligent robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+intelligent robot\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h

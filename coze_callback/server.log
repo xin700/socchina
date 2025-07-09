@@ -1,0 +1,146 @@
+2025-05-13 15:29:53,237 - coze_callback - INFO - Starting HTTP server on port 11452...
+2025-05-13 15:29:53,237 - coze_callback.handler - INFO - Created directory: data
+2025-05-13 15:29:53,258 - coze_callback.server - INFO - Server running at http://0.0.0.0:11452/
+2025-05-13 15:29:53,258 - coze_callback.server - INFO - Press Ctrl+C to stop the server
+2025-05-13 15:31:47,039 - coze_callback - INFO - Starting HTTP server on port 11452...
+2025-05-13 15:31:47,046 - coze_callback.server - INFO - Server running at http://0.0.0.0:11452/
+2025-05-13 15:31:47,047 - coze_callback.server - INFO - Press Ctrl+C to stop the server
+2025-05-13 15:32:01,430 - coze_callback.handler - INFO - Received GET request to /test
+2025-05-13 15:32:01,431 - coze_callback.handler - INFO - Request saved to data/20250513_153201_430850_GET.json
+2025-05-13 15:32:23,895 - coze_callback.handler - INFO - Received GET request to /test
+2025-05-13 15:32:23,899 - coze_callback.handler - INFO - Request saved to data/20250513_153223_897558_GET.json
+2025-05-13 15:32:35,282 - coze_callback.handler - INFO - Received GET request to /test
+2025-05-13 15:32:35,284 - coze_callback.handler - INFO - Request saved to data/20250513_153235_283038_GET.json
+2025-05-13 15:36:19,509 - coze_callback.handler - INFO - Received GET request to /
+2025-05-13 15:36:19,512 - coze_callback.handler - INFO - Request saved to data/20250513_153619_511233_GET.json
+2025-05-13 15:36:23,581 - coze_callback.handler - INFO - Received GET request to /
+2025-05-13 15:36:23,582 - coze_callback.handler - INFO - Request saved to data/20250513_153623_581514_GET.json
+2025-05-13 15:37:24,828 - coze_callback - INFO - Starting HTTP server on port 11452...
+2025-05-13 15:37:24,828 - coze_callback - INFO - Signature verification enabled with provided secret key
+2025-05-13 15:37:24,828 - coze_callback.handler - INFO - Signature verification enabled
+2025-05-13 15:37:24,837 - coze_callback.server - INFO - Server running at http://0.0.0.0:11452/
+2025-05-13 15:37:24,837 - coze_callback.server - INFO - Press Ctrl+C to stop the server
+2025-05-13 15:41:03,142 - coze_callback - INFO - Starting HTTP server on port 11452...
+2025-05-13 15:41:03,142 - coze_callback - INFO - Signature verification enabled with provided secret key
+2025-05-13 15:41:03,142 - coze_callback.handler - INFO - Signature verification enabled
+2025-05-13 15:41:03,150 - coze_callback.server - INFO - Server running at http://0.0.0.0:11452/
+2025-05-13 15:41:03,150 - coze_callback.server - INFO - Press Ctrl+C to stop the server
+2025-05-13 15:41:09,271 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-13 15:41:09,271 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-13T15:41:09.262504", "EventId": "f6c87205-e849-45f8-8cd2-c2c6eaf69f63", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test262521", "Signature": "dfca8b83a3ddf4105ba92eaa011b40494684ab940a583b5828266f2d98f75b6e"}
+2025-05-13 15:41:09,271 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: f6c87205-e849-45f8-8cd2-c2c6eaf69f63 | Message: Signature verification successful
+2025-05-13 15:41:09,272 - coze_callback.handler - INFO - Request saved to data/20250513_154109_271825_POST.json
+2025-05-13 15:42:06,924 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-13 15:42:06,924 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-13T15:42:06.914197", "EventId": "cd0dc429-3429-441f-a90f-99ebdee8b77c", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test914221", "Signature": "bb4d076e59bbfc84a11cda8d4794809fb450032f20b5ea17be2c3af5353ea8c0"}
+2025-05-13 15:42:06,925 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: cd0dc429-3429-441f-a90f-99ebdee8b77c | Message: Signature verification successful
+2025-05-13 15:42:06,925 - coze_callback.handler - INFO - Request saved to data/20250513_154206_925085_POST.json
+2025-05-13 15:42:38,942 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-13 15:42:38,942 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-13T15:42:38.933448", "EventId": "3a9bf33d-3e25-4849-8ef8-5f6ef0a14155", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test933473", "Signature": "441e1a097ff840740814b65b1012ea93bcc756053be03f0dfa5fb1ff8ef69f67"}
+2025-05-13 15:42:38,942 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 3a9bf33d-3e25-4849-8ef8-5f6ef0a14155 | Message: Signature verification successful
+2025-05-13 15:42:38,942 - coze_callback.handler - INFO - Request saved to data/20250513_154238_942528_POST.json
+2025-05-13 15:43:44,159 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-13 15:43:44,159 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-13T15:43:44.151730", "EventId": "bcc5890f-72e1-415e-bf44-e40f1990f7ed", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test151758", "Signature": "0e185ce57e62b31909700e19aa02959203e2be6ee5f2225b6c74710cee936cee"}
+2025-05-13 15:43:44,159 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: bcc5890f-72e1-415e-bf44-e40f1990f7ed | Message: Signature verification successful
+2025-05-13 15:43:44,160 - coze_callback.handler - INFO - Request saved to data/20250513_154344_159992_POST.json
+2025-05-13 15:44:16,611 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-13 15:44:16,611 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-13T15:44:16.603346", "EventId": "4539ae28-4e70-4e6c-897f-de4559566460", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test603371", "Signature": "1a62736f5a76265fafe800f98b839f83f316721c180054e00f3197f6e9db58fb"}
+2025-05-13 15:44:16,611 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 4539ae28-4e70-4e6c-897f-de4559566460 | Message: Signature verification successful
+2025-05-13 15:44:16,612 - coze_callback.handler - INFO - Request saved to data/20250513_154416_611862_POST.json
+2025-05-13 15:44:46,379 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-13 15:44:46,380 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-13T15:44:41.623037", "EventId": "ace34db4-9c0c-4966-81a0-883a2075504a", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test623059", "Signature": "ab3a32c6516dcace02004ce8a768a401355e0612c300adae0acaa6dc51d63d9e"}
+2025-05-13 15:44:46,381 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: ace34db4-9c0c-4966-81a0-883a2075504a | Message: Signature verification successful
+2025-05-13 15:44:46,382 - coze_callback.handler - INFO - Request saved to data/20250513_154446_381142_POST.json
+2025-05-13 15:46:21,153 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-13 15:46:21,153 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-13T15:46:19.819622", "EventId": "1bcc384c-c34a-4f54-b1fb-2efe125ed599", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test819647", "Signature": "19a371906a1204010a1a7121c2aaa510ac736f40b2889682a69bfc830cce697b"}
+2025-05-13 15:46:21,153 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 1bcc384c-c34a-4f54-b1fb-2efe125ed599 | Message: Signature verification successful
+2025-05-13 15:46:21,155 - coze_callback.handler - INFO - Request saved to data/20250513_154621_153969_POST.json
+2025-05-13 16:36:56,168 - coze_callback - INFO - Server shutting down...
+2025-05-16 13:04:12,108 - coze_callback - INFO - Starting HTTP server on port 11452...
+2025-05-16 13:04:12,109 - coze_callback - INFO - Signature verification enabled with provided secret key
+2025-05-16 13:04:12,109 - coze_callback.handler - INFO - Signature verification enabled
+2025-05-16 13:04:12,158 - coze_callback.server - INFO - Server running at http://0.0.0.0:11452/
+2025-05-16 13:04:12,159 - coze_callback.server - INFO - Press Ctrl+C to stop the server
+2025-05-16 13:04:48,128 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:04:48,128 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-16T13:04:48.121310", "EventId": "b6d96ef5-61e0-438d-94f5-4337a53dee0b", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test121326", "Signature": "5f34b5e5c0702fda10fa8fd9248a1b49d528d44fb4488b275c6dc70bf009b474"}
+2025-05-16 13:04:48,128 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: b6d96ef5-61e0-438d-94f5-4337a53dee0b | Message: Signature verification successful
+2025-05-16 13:04:48,128 - coze_callback.handler - INFO - Request saved to data/20250516_130448_128697_POST.json
+2025-05-16 13:04:51,940 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:04:51,940 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-16T13:04:51.933860", "EventId": "7c47fd68-9b5e-4d66-9acc-60075bc90d49", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test933878", "Signature": "8e03a9ccd6040c60969fa0601c19d41cf503999ee03acd31ffed564c3a127a16"}
+2025-05-16 13:04:51,940 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 7c47fd68-9b5e-4d66-9acc-60075bc90d49 | Message: Signature verification successful
+2025-05-16 13:04:51,940 - coze_callback.handler - INFO - Request saved to data/20250516_130451_940296_POST.json
+2025-05-16 13:05:14,294 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:05:14,295 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-16T13:05:14.038845", "EventId": "86dcc09f-8881-4b30-9efe-5cd81ac5d26f", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test038861", "Signature": "034d745f8a31715faa0152475437a3d5c1972a5a56b1c76d30f124dd8983aed8"}
+2025-05-16 13:05:14,295 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 86dcc09f-8881-4b30-9efe-5cd81ac5d26f | Message: Signature verification successful
+2025-05-16 13:05:14,296 - coze_callback.handler - INFO - Request saved to data/20250516_130514_295848_POST.json
+2025-05-16 13:05:17,225 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:05:17,225 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-16T13:05:17.077255", "EventId": "aa4e93cc-c41a-48f4-b126-611584fafe90", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test077273", "Signature": "b6672f13bf57680410627c91115e7f36c59411ee8d35e78bac722af3fa3aecc5"}
+2025-05-16 13:05:17,225 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: aa4e93cc-c41a-48f4-b126-611584fafe90 | Message: Signature verification successful
+2025-05-16 13:05:17,225 - coze_callback.handler - INFO - Request saved to data/20250516_130517_225235_POST.json
+2025-05-16 13:06:09,944 - coze_callback.handler - INFO - Received GET request to /
+2025-05-16 13:06:09,947 - coze_callback.handler - INFO - Request saved to data/20250516_130609_946246_GET.json
+2025-05-16 13:06:11,766 - coze_callback.handler - INFO - Received GET request to /
+2025-05-16 13:06:11,768 - coze_callback.handler - INFO - Request saved to data/20250516_130611_767012_GET.json
+2025-05-16 13:06:41,555 - coze_callback - INFO - Server shutting down...
+2025-05-16 13:06:47,529 - coze_callback - INFO - Starting HTTP server on port 11452...
+2025-05-16 13:06:47,529 - coze_callback - INFO - Signature verification enabled with provided secret key
+2025-05-16 13:06:47,529 - coze_callback.handler - INFO - Signature verification enabled
+2025-05-16 13:06:47,537 - coze_callback.server - INFO - Server running at http://0.0.0.0:11452/
+2025-05-16 13:06:47,537 - coze_callback.server - INFO - Press Ctrl+C to stop the server
+2025-05-16 13:06:52,304 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:06:52,305 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-16T13:06:52.169366", "EventId": "0e3907c7-2ce1-4630-b6d6-e1c6c6486a44", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test169383", "Signature": "ab2b0084a092aad5daf8185069fbb7015e5b831f3c3d322b1e91a08713c3350e"}
+2025-05-16 13:06:52,305 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 0e3907c7-2ce1-4630-b6d6-e1c6c6486a44 | Message: Signature verification successful
+2025-05-16 13:06:52,305 - coze_callback.handler - INFO - Request saved to data/20250516_130652_305193_POST.json
+2025-05-16 13:06:53,816 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:06:53,816 - coze_callback.handler - INFO - Request body: {"EventType": "RoomCreate", "EventData": "{\"RoomId\":\"room1\",\"Timestamp\":1679383924691}", "EventTime": "2025-05-16T13:06:53.670871", "EventId": "be852fcb-c1e1-4b20-861c-d2515516293d", "AppId": "test_app_id", "Version": "2020-12-01", "Nonce": "test670891", "Signature": "0185c85c66d75baf8015bb0294ca3371fe47ce68163098445c81dfeadc49f3d0"}
+2025-05-16 13:06:53,816 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: be852fcb-c1e1-4b20-861c-d2515516293d | Message: Signature verification successful
+2025-05-16 13:06:53,817 - coze_callback.handler - INFO - Request saved to data/20250516_130653_816963_POST.json
+2025-05-16 13:06:57,719 - coze_callback.handler - INFO - Received GET request to /callback
+2025-05-16 13:06:57,719 - coze_callback.handler - INFO - Request saved to data/20250516_130657_719457_GET.json
+2025-05-16 13:07:16,524 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:07:16,524 - coze_callback.handler - INFO - Request body: {"EventType":"VoiceChat","EventData":"{\"AppId\":\"680f6f29207f3c01776ff55e\",\"BusinessId\":\"\",\"RoomId\":\"ChatRoom01\",\"TaskId\":\"ChatTask01\",\"UserID\":\"Huoshan01\",\"RoundID\":0,\"EventTime\":1747372035214,\"EventType\":0,\"RunStage\":\"taskStart\",\"ErrorInfo\":{\"ErrorCode\":0,\"Reason\":\"\"}}","EventTime":"2025-05-16T13:07:15+08:00","EventId":"5c78dd36-3bf7-4c99-8444-d4ebdb719176","AppId":"680f6f29207f3c01776ff55e","Version":"2024-12-01","Signature":"21e8dd4c57364e840d3b87d9b71ea9083733fd0545dacdfbc5ab65c4520baba4","Noce":"NMuF","Nonce":"NMuF","BusinessId":""}
+2025-05-16 13:07:16,524 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 5c78dd36-3bf7-4c99-8444-d4ebdb719176 | Message: Signature verification successful
+2025-05-16 13:07:16,525 - coze_callback.handler - INFO - Request saved to data/20250516_130716_524909_POST.json
+2025-05-16 13:07:20,495 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:07:20,495 - coze_callback.handler - INFO - Request body: {"EventType":"VoiceChat","EventData":"{\"AppId\":\"680f6f29207f3c01776ff55e\",\"BusinessId\":\"\",\"RoomId\":\"ChatRoom01\",\"TaskId\":\"ChatTask01\",\"UserID\":\"Huoshan01\",\"RoundID\":0,\"EventTime\":1747372039194,\"EventType\":0,\"RunStage\":\"answerFinish\",\"ErrorInfo\":{\"ErrorCode\":0,\"Reason\":\"\"}}","EventTime":"2025-05-16T13:07:19+08:00","EventId":"90d00789-2c7d-4d4f-8739-2407509048af","AppId":"680f6f29207f3c01776ff55e","Version":"2024-12-01","Signature":"06fdbf3a38b71a7427910257adcb8dc1d1839e3b4fdd05c8d27cd659073be9d9","Noce":"Njoo","Nonce":"Njoo","BusinessId":""}
+2025-05-16 13:07:20,495 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 90d00789-2c7d-4d4f-8739-2407509048af | Message: Signature verification successful
+2025-05-16 13:07:20,496 - coze_callback.handler - INFO - Request saved to data/20250516_130720_495738_POST.json
+2025-05-16 13:07:28,823 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:07:28,824 - coze_callback.handler - INFO - Request body: {"EventType":"VoiceChat","EventData":"{\"AppId\":\"680f6f29207f3c01776ff55e\",\"BusinessId\":\"\",\"RoomId\":\"ChatRoom01\",\"TaskId\":\"ChatTask01\",\"UserID\":\"Huoshan01\",\"RoundID\":1,\"EventTime\":1747372047385,\"EventType\":0,\"RunStage\":\"asrFinish\",\"ErrorInfo\":{\"ErrorCode\":0,\"Reason\":\"\"}}","EventTime":"2025-05-16T13:07:27+08:00","EventId":"10da4c28-6a47-44ce-b3af-70ae634b9f1e","AppId":"680f6f29207f3c01776ff55e","Version":"2024-12-01","Signature":"21abb30fe4f7d2e89dda3fc38da7c228709fc01035e84794fdf197f468115d28","Noce":"gEUZ","Nonce":"gEUZ","BusinessId":""}
+2025-05-16 13:07:28,824 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 10da4c28-6a47-44ce-b3af-70ae634b9f1e | Message: Signature verification successful
+2025-05-16 13:07:28,825 - coze_callback.handler - INFO - Request saved to data/20250516_130728_824697_POST.json
+2025-05-16 13:07:31,279 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:07:31,280 - coze_callback.handler - INFO - Request body: {"EventType":"VoiceChat","EventData":"{\"AppId\":\"680f6f29207f3c01776ff55e\",\"BusinessId\":\"\",\"RoomId\":\"ChatRoom01\",\"TaskId\":\"ChatTask01\",\"UserID\":\"Huoshan01\",\"RoundID\":1,\"EventTime\":1747372046910,\"EventType\":0,\"RunStage\":\"beginAsking\",\"ErrorInfo\":{\"ErrorCode\":0,\"Reason\":\"\"}}","EventTime":"2025-05-16T13:07:26+08:00","EventId":"449d596d-5eac-408b-a9d9-add9e1ea6232","AppId":"680f6f29207f3c01776ff55e","Version":"2024-12-01","Signature":"a32dfd508a455b709d32d13199115fe7df9d9679e63f0fe13c5f669905facde4","Noce":"iioG","Nonce":"iioG","BusinessId":""}
+2025-05-16 13:07:31,280 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 449d596d-5eac-408b-a9d9-add9e1ea6232 | Message: Signature verification successful
+2025-05-16 13:07:31,282 - coze_callback.handler - INFO - Request saved to data/20250516_130731_280636_POST.json
+2025-05-16 13:07:47,692 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:07:47,693 - coze_callback.handler - INFO - Request body: {"EventType":"VoiceChat","EventData":"{\"AppId\":\"680f6f29207f3c01776ff55e\",\"BusinessId\":\"\",\"RoomId\":\"ChatRoom01\",\"TaskId\":\"ChatTask01\",\"UserID\":\"Huoshan01\",\"RoundID\":1,\"EventTime\":1747372066654,\"EventType\":0,\"RunStage\":\"answerFinish\",\"ErrorInfo\":{\"ErrorCode\":0,\"Reason\":\"\"}}","EventTime":"2025-05-16T13:07:46+08:00","EventId":"ffae18c9-6c24-4469-8d8e-adcadaf7a442","AppId":"680f6f29207f3c01776ff55e","Version":"2024-12-01","Signature":"c8376581b58808956f172f2aad05aae15614ae6011a0ee3da2c4f428a198f21b","Noce":"molV","Nonce":"molV","BusinessId":""}
+2025-05-16 13:07:47,693 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: ffae18c9-6c24-4469-8d8e-adcadaf7a442 | Message: Signature verification successful
+2025-05-16 13:07:47,694 - coze_callback.handler - INFO - Request saved to data/20250516_130747_693346_POST.json
+2025-05-16 13:07:57,608 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:07:57,608 - coze_callback.handler - INFO - Request body: {"EventType":"VoiceChat","EventData":"{\"AppId\":\"680f6f29207f3c01776ff55e\",\"BusinessId\":\"\",\"RoomId\":\"ChatRoom01\",\"TaskId\":\"ChatTask01\",\"UserID\":\"Huoshan01\",\"RoundID\":2,\"EventTime\":1747372076574,\"EventType\":0,\"RunStage\":\"beginAsking\",\"ErrorInfo\":{\"ErrorCode\":0,\"Reason\":\"\"}}","EventTime":"2025-05-16T13:07:56+08:00","EventId":"ff4b521a-87bf-4179-b51a-7a35f9999a62","AppId":"680f6f29207f3c01776ff55e","Version":"2024-12-01","Signature":"f9647db0bdc6d8ed5ec9c0dff63705d0b349c65cb21013173a8bf7ac72dc05cb","Noce":"ettq","Nonce":"ettq","BusinessId":""}
+2025-05-16 13:07:57,609 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: ff4b521a-87bf-4179-b51a-7a35f9999a62 | Message: Signature verification successful
+2025-05-16 13:07:57,609 - coze_callback.handler - INFO - Request saved to data/20250516_130757_609133_POST.json
+2025-05-16 13:07:58,472 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:07:58,472 - coze_callback.handler - INFO - Request body: {"EventType":"VoiceChat","EventData":"{\"AppId\":\"680f6f29207f3c01776ff55e\",\"BusinessId\":\"\",\"RoomId\":\"ChatRoom01\",\"TaskId\":\"ChatTask01\",\"UserID\":\"Huoshan01\",\"RoundID\":2,\"EventTime\":1747372077906,\"EventType\":0,\"RunStage\":\"asrFinish\",\"ErrorInfo\":{\"ErrorCode\":0,\"Reason\":\"\"}}","EventTime":"2025-05-16T13:07:57+08:00","EventId":"efa7abaf-59a4-4f3f-a444-ab261bb53d31","AppId":"680f6f29207f3c01776ff55e","Version":"2024-12-01","Signature":"1d15c88a6d3ebe22f115f043d47ad19c6173a449db01e1833ad3c8b560cf4b41","Noce":"iewh","Nonce":"iewh","BusinessId":""}
+2025-05-16 13:07:58,472 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: efa7abaf-59a4-4f3f-a444-ab261bb53d31 | Message: Signature verification successful
+2025-05-16 13:07:58,473 - coze_callback.handler - INFO - Request saved to data/20250516_130758_472899_POST.json
+2025-05-16 13:08:00,128 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:08:00,129 - coze_callback.handler - INFO - Request body: {"EventType":"VoiceChat","EventData":"{\"AppId\":\"680f6f29207f3c01776ff55e\",\"BusinessId\":\"\",\"RoomId\":\"ChatRoom01\",\"TaskId\":\"ChatTask01\",\"UserID\":\"Huoshan01\",\"RoundID\":3,\"EventTime\":1747372079135,\"EventType\":0,\"RunStage\":\"beginAsking\",\"ErrorInfo\":{\"ErrorCode\":0,\"Reason\":\"\"}}","EventTime":"2025-05-16T13:07:59+08:00","EventId":"e92beb1a-b06a-4589-b55a-1cf086cbc011","AppId":"680f6f29207f3c01776ff55e","Version":"2024-12-01","Signature":"9f7362b867eaf2fe1a0abfba93e67cc1b3b166c32bb36c2dc4b2281dc3b28568","Noce":"ItPX","Nonce":"ItPX","BusinessId":""}
+2025-05-16 13:08:00,129 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: e92beb1a-b06a-4589-b55a-1cf086cbc011 | Message: Signature verification successful
+2025-05-16 13:08:00,130 - coze_callback.handler - INFO - Request saved to data/20250516_130800_129507_POST.json
+2025-05-16 13:08:02,345 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:08:02,346 - coze_callback.handler - INFO - Request body: {"EventType":"VoiceChat","EventData":"{\"AppId\":\"680f6f29207f3c01776ff55e\",\"BusinessId\":\"\",\"RoomId\":\"ChatRoom01\",\"TaskId\":\"ChatTask01\",\"UserID\":\"Huoshan01\",\"RoundID\":3,\"EventTime\":1747372081445,\"EventType\":0,\"RunStage\":\"asrFinish\",\"ErrorInfo\":{\"ErrorCode\":0,\"Reason\":\"\"}}","EventTime":"2025-05-16T13:08:01+08:00","EventId":"4ead66c8-91c7-44bb-a534-e91091ea391c","AppId":"680f6f29207f3c01776ff55e","Version":"2024-12-01","Signature":"beed2bee5bd91880d980be946a6579285063d26d100ab23d20d42a8794936084","Noce":"wSAp","Nonce":"wSAp","BusinessId":""}
+2025-05-16 13:08:02,346 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 4ead66c8-91c7-44bb-a534-e91091ea391c | Message: Signature verification successful
+2025-05-16 13:08:02,348 - coze_callback.handler - INFO - Request saved to data/20250516_130802_346770_POST.json
+2025-05-16 13:08:16,459 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:08:16,460 - coze_callback.handler - INFO - Request body: {"EventType":"VoiceChat","EventData":"{\"AppId\":\"680f6f29207f3c01776ff55e\",\"BusinessId\":\"\",\"RoomId\":\"ChatRoom01\",\"TaskId\":\"ChatTask01\",\"UserID\":\"Huoshan01\",\"RoundID\":3,\"EventTime\":1747372096084,\"EventType\":0,\"RunStage\":\"answerFinish\",\"ErrorInfo\":{\"ErrorCode\":0,\"Reason\":\"\"}}","EventTime":"2025-05-16T13:08:16+08:00","EventId":"227bbf6a-fdb6-4c76-b94b-13ca06deefbc","AppId":"680f6f29207f3c01776ff55e","Version":"2024-12-01","Signature":"4b94d92f9dbe615df371eeef989f658388c9464ba858f2bce3b26a51d99aa100","Noce":"Nyjy","Nonce":"Nyjy","BusinessId":""}
+2025-05-16 13:08:16,461 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 227bbf6a-fdb6-4c76-b94b-13ca06deefbc | Message: Signature verification successful
+2025-05-16 13:08:16,462 - coze_callback.handler - INFO - Request saved to data/20250516_130816_461129_POST.json
+2025-05-16 13:08:31,572 - coze_callback.handler - INFO - Received POST request to /callback
+2025-05-16 13:08:31,573 - coze_callback.handler - INFO - Request body: {"EventType":"VoiceChat","EventData":"{\"AppId\":\"680f6f29207f3c01776ff55e\",\"BusinessId\":\"\",\"RoomId\":\"ChatRoom01\",\"TaskId\":\"ChatTask01\",\"UserID\":\"Huoshan01\",\"RoundID\":0,\"EventTime\":1747372111033,\"EventType\":0,\"RunStage\":\"taskStop\",\"ErrorInfo\":{\"ErrorCode\":0,\"Reason\":\"\"}}","EventTime":"2025-05-16T13:08:31+08:00","EventId":"77443dfd-bf83-40aa-8d4d-04f91768eeec","AppId":"680f6f29207f3c01776ff55e","Version":"2024-12-01","Signature":"b2f25ad2d2becdb16b4128e9fea6a81739160ac316d2f45dd2dd564b0fa462dc","Noce":"hcLD","Nonce":"hcLD","BusinessId":""}
+2025-05-16 13:08:31,573 - coze_callback.handler - INFO - Signature Verification: ✓ Signature Valid | EventId: 77443dfd-bf83-40aa-8d4d-04f91768eeec | Message: Signature verification successful
+2025-05-16 13:08:31,574 - coze_callback.handler - INFO - Request saved to data/20250516_130831_573389_POST.json
+2025-05-16 13:16:45,019 - coze_callback.handler - INFO - Received GET request to /
+2025-05-16 13:16:45,022 - coze_callback.handler - INFO - Request saved to data/20250516_131645_021179_GET.json
+2025-05-16 13:16:47,577 - coze_callback.handler - INFO - Received GET request to /
+2025-05-16 13:16:47,578 - coze_callback.handler - INFO - Request saved to data/20250516_131647_577304_GET.json
+2025-05-16 14:02:36,607 - coze_callback - INFO - Server shutting down...

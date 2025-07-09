@@ -1,0 +1,25 @@
+[0.054s] Invoking command in '/home/sunrise/planning_ws/build/pose_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/planning_ws/build/pose_sender -- -j8 -l8
+[0.289s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_sender.dir/src/pose_sender.cpp.o[0m
+[51.824s] [100%] [32m[1mLinking CXX executable pose_sender[0m
+[54.667s] [100%] Built target pose_sender
+[54.722s] Invoked command in '/home/sunrise/planning_ws/build/pose_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/planning_ws/build/pose_sender -- -j8 -l8
+[54.769s] Invoking command in '/home/sunrise/planning_ws/build/pose_sender': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/planning_ws/build/pose_sender
+[54.803s] -- Install configuration: ""
+[54.804s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/lib/pose_sender/pose_sender
+[54.807s] -- Set runtime path of "/home/sunrise/planning_ws/install/pose_sender/lib/pose_sender/pose_sender" to ""
+[54.808s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/ament_index/resource_index/package_run_dependencies/pose_sender
+[54.809s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/ament_index/resource_index/parent_prefix_path/pose_sender
+[54.810s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/environment/ament_prefix_path.sh
+[54.811s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/environment/ament_prefix_path.dsv
+[54.811s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/environment/path.sh
+[54.812s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/environment/path.dsv
+[54.812s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/local_setup.bash
+[54.813s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/local_setup.sh
+[54.814s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/local_setup.zsh
+[54.814s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/local_setup.dsv
+[54.815s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/package.dsv
+[54.815s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/ament_index/resource_index/packages/pose_sender
+[54.816s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/cmake/pose_senderConfig.cmake
+[54.817s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/cmake/pose_senderConfig-version.cmake
+[54.817s] -- Installing: /home/sunrise/planning_ws/install/pose_sender/share/pose_sender/package.xml
+[54.828s] Invoked command in '/home/sunrise/planning_ws/build/pose_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/planning_ws/build/pose_sender

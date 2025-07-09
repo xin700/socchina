@@ -1,0 +1,128 @@
+[0.688s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.689s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa436d720>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa4473730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa4473730>>, mixin_verb=('build',))
+[1.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.790s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/flask_robot_arm'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/httpController) by extensions ['ignore', 'ignore_ament_install']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/httpController) by extension 'ignore'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/httpController) by extension 'ignore_ament_install'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/httpController) by extensions ['colcon_pkg']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/httpController) by extension 'colcon_pkg'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(src/httpController) by extensions ['colcon_meta']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/httpController) by extension 'colcon_meta'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/httpController) by extensions ['ros']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/httpController) by extension 'ros'
+[1.906s] DEBUG:colcon.colcon_core.package_identification:Package 'src/httpController' with type 'ros.ament_python' and name 'httpController'
+[1.906s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.025s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.036s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sunrise/flask_robot_arm/install
+[2.044s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/humble
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.399s] Level 5:colcon.colcon_core.verb:set package 'httpController' build argument 'cmake_args' from command line to 'None'
+[2.399s] Level 5:colcon.colcon_core.verb:set package 'httpController' build argument 'cmake_target' from command line to 'None'
+[2.400s] Level 5:colcon.colcon_core.verb:set package 'httpController' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.400s] Level 5:colcon.colcon_core.verb:set package 'httpController' build argument 'cmake_clean_cache' from command line to 'False'
+[2.400s] Level 5:colcon.colcon_core.verb:set package 'httpController' build argument 'cmake_clean_first' from command line to 'False'
+[2.400s] Level 5:colcon.colcon_core.verb:set package 'httpController' build argument 'cmake_force_configure' from command line to 'False'
+[2.400s] Level 5:colcon.colcon_core.verb:set package 'httpController' build argument 'ament_cmake_args' from command line to 'None'
+[2.401s] Level 5:colcon.colcon_core.verb:set package 'httpController' build argument 'catkin_cmake_args' from command line to 'None'
+[2.401s] Level 5:colcon.colcon_core.verb:set package 'httpController' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.401s] DEBUG:colcon.colcon_core.verb:Building package 'httpController' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/flask_robot_arm/build/httpController', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/flask_robot_arm/install/httpController', 'merge_install': False, 'path': '/home/sunrise/flask_robot_arm/src/httpController', 'symlink_install': False, 'test_result_base': None}
+[2.402s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.408s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sunrise/flask_robot_arm/src/httpController' with build type 'ament_python'
+[2.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('httpController', 'ament_prefix_path')
+[2.420s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/flask_robot_arm/install/httpController/share/httpController/hook/ament_prefix_path.ps1'
+[2.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/flask_robot_arm/install/httpController/share/httpController/hook/ament_prefix_path.dsv'
+[2.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/flask_robot_arm/install/httpController/share/httpController/hook/ament_prefix_path.sh'
+[2.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.125s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sunrise/flask_robot_arm/src/httpController'
+[4.126s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.127s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/flask_robot_arm/src/httpController': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/sunrise/flask_robot_arm/build/httpController/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/httpController build --build-base /home/sunrise/flask_robot_arm/build/httpController/build install --record /home/sunrise/flask_robot_arm/build/httpController/install.log --single-version-externally-managed install_data
+[8.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/flask_robot_arm/src/httpController' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/sunrise/flask_robot_arm/build/httpController/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/httpController build --build-base /home/sunrise/flask_robot_arm/build/httpController/build install --record /home/sunrise/flask_robot_arm/build/httpController/install.log --single-version-externally-managed install_data
+[8.439s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/flask_robot_arm/install/httpController' for CMake module files
+[8.441s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/flask_robot_arm/install/httpController' for CMake config files
+[8.446s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/flask_robot_arm/install/httpController/lib'
+[8.448s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/flask_robot_arm/install/httpController/bin'
+[8.449s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/flask_robot_arm/install/httpController/lib/pkgconfig/httpController.pc'
+[8.452s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/flask_robot_arm/install/httpController/lib/python3.10/site-packages'
+[8.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('httpController', 'pythonpath')
+[8.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/flask_robot_arm/install/httpController/share/httpController/hook/pythonpath.ps1'
+[8.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/flask_robot_arm/install/httpController/share/httpController/hook/pythonpath.dsv'
+[8.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/flask_robot_arm/install/httpController/share/httpController/hook/pythonpath.sh'
+[8.465s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/flask_robot_arm/install/httpController/bin'
+[8.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(httpController)
+[8.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/flask_robot_arm/install/httpController/share/httpController/package.ps1'
+[8.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/flask_robot_arm/install/httpController/share/httpController/package.dsv'
+[8.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/flask_robot_arm/install/httpController/share/httpController/package.sh'
+[8.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/flask_robot_arm/install/httpController/share/httpController/package.bash'
+[8.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/flask_robot_arm/install/httpController/share/httpController/package.zsh'
+[8.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/flask_robot_arm/install/httpController/share/colcon-core/packages/httpController)
+[8.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.499s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.528s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.528s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.529s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.915s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.freedesktop.Notifications': timed out (service_start_timeout=120000ms)
+[13.915s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.917s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/flask_robot_arm/install/local_setup.ps1'
+[13.925s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/flask_robot_arm/install/_local_setup_util_ps1.py'
+[13.934s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/flask_robot_arm/install/setup.ps1'
+[13.941s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/flask_robot_arm/install/local_setup.sh'
+[13.945s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/flask_robot_arm/install/_local_setup_util_sh.py'
+[13.948s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/flask_robot_arm/install/setup.sh'
+[13.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/flask_robot_arm/install/local_setup.bash'
+[13.958s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/flask_robot_arm/install/setup.bash'
+[13.964s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/flask_robot_arm/install/local_setup.zsh'
+[13.967s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/flask_robot_arm/install/setup.zsh'

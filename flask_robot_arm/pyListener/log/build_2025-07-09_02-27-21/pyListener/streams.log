@@ -1,0 +1,24 @@
+[4.114s] Invoking command in '/home/sunrise/pyListener/pyListener': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/sunrise/pyListener/build/pyListener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pyListener build --build-base /home/sunrise/pyListener/build/pyListener/build install --record /home/sunrise/pyListener/build/pyListener/install.log --single-version-externally-managed install_data
+[5.554s] running egg_info
+[5.558s] writing ../build/pyListener/pyListener.egg-info/PKG-INFO
+[5.559s] writing dependency_links to ../build/pyListener/pyListener.egg-info/dependency_links.txt
+[5.560s] writing entry points to ../build/pyListener/pyListener.egg-info/entry_points.txt
+[5.560s] writing requirements to ../build/pyListener/pyListener.egg-info/requires.txt
+[5.561s] writing top-level names to ../build/pyListener/pyListener.egg-info/top_level.txt
+[5.571s] reading manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+[5.575s] writing manifest file '../build/pyListener/pyListener.egg-info/SOURCES.txt'
+[5.576s] running build
+[5.577s] running build_py
+[5.577s] copying pyListener/pyListener.py -> /home/sunrise/pyListener/build/pyListener/build/lib/pyListener
+[5.579s] running install
+[5.580s] running install_lib
+[5.585s] copying /home/sunrise/pyListener/build/pyListener/build/lib/pyListener/pyListener.py -> /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener
+[5.588s] byte-compiling /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener/pyListener.py to pyListener.cpython-310.pyc
+[5.594s] running install_data
+[5.595s] running install_egg_info
+[5.604s] removing '/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info' (and everything under it)
+[5.605s] Copying ../build/pyListener/pyListener.egg-info to /home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages/pyListener-0.0.0-py3.10.egg-info
+[5.610s] running install_scripts
+[5.727s] Installing pyListener script to /home/sunrise/pyListener/install/pyListener/lib/pyListener
+[5.728s] writing list of installed files to '/home/sunrise/pyListener/build/pyListener/install.log'
+[5.930s] Invoked command in '/home/sunrise/pyListener/pyListener' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/sunrise/pyListener/build/pyListener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/pyListener/install/pyListener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pyListener build --build-base /home/sunrise/pyListener/build/pyListener/build install --record /home/sunrise/pyListener/build/pyListener/install.log --single-version-externally-managed install_data

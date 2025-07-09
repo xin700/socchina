@@ -1,0 +1,6 @@
+source;share/httpController/hook/pythonpath.ps1
+source;share/httpController/hook/pythonpath.dsv
+source;share/httpController/hook/pythonpath.sh
+source;share/httpController/hook/ament_prefix_path.ps1
+source;share/httpController/hook/ament_prefix_path.dsv
+source;share/httpController/hook/ament_prefix_path.sh
