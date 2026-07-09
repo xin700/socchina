@@ -1,0 +1,12 @@
+pickbot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+pickbot\list.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdlib.h
+pickbot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+pickbot\list.o: D:\STM32\ARM\ARMCC\Bin\..\include\stddef.h
+pickbot\list.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdint.h
+pickbot\list.o: ../Core/Inc/FreeRTOSConfig.h
+pickbot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+pickbot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+pickbot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+pickbot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+pickbot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+pickbot\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

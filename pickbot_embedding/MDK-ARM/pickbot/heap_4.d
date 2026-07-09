@@ -1,0 +1,13 @@
+pickbot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+pickbot\heap_4.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdlib.h
+pickbot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+pickbot\heap_4.o: D:\STM32\ARM\ARMCC\Bin\..\include\stddef.h
+pickbot\heap_4.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdint.h
+pickbot\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+pickbot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+pickbot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+pickbot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+pickbot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+pickbot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+pickbot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+pickbot\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

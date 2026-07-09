@@ -1,0 +1,14 @@
+pickbot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+pickbot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+pickbot\croutine.o: D:\STM32\ARM\ARMCC\Bin\..\include\stddef.h
+pickbot\croutine.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdint.h
+pickbot\croutine.o: ../Core/Inc/FreeRTOSConfig.h
+pickbot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+pickbot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+pickbot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+pickbot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+pickbot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+pickbot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+pickbot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+pickbot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+pickbot\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

@@ -1,0 +1,15 @@
+pickbot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+pickbot\queue.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdlib.h
+pickbot\queue.o: D:\STM32\ARM\ARMCC\Bin\..\include\string.h
+pickbot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+pickbot\queue.o: D:\STM32\ARM\ARMCC\Bin\..\include\stddef.h
+pickbot\queue.o: D:\STM32\ARM\ARMCC\Bin\..\include\stdint.h
+pickbot\queue.o: ../Core/Inc/FreeRTOSConfig.h
+pickbot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+pickbot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+pickbot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+pickbot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+pickbot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+pickbot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+pickbot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+pickbot\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
